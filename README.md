@@ -4,7 +4,8 @@
 
 - 左：Pro Micro nRF52840（nice!nano v2 相容）
 - 右：WeAct BlackPill（STM32F401/F411）
-- 中：SOT-23 轉 DIP 轉接板上的 U3、電阻 R1、LiPo 電池，以及 4 組排針
+- 中：U3 = **3.3V LDO 穩壓 IC**（SOT-23-5，AP2112K-3.3 同腳位系列），裝在 SOT-23 轉 DIP 轉接板上；吃 BlackPill 的 5V，輸出 3.3V 接負載電阻 R1
+- 其他：LiPo 電池（＋ 接 nRF RAW）、兩組 SWD 引出排針（nRF 側 J4⇄J1、BlackPill 側 J3⇄J2）
 
 > 所有零件與跳線都依判讀出的麵包板座標（欄 1–63、列 a–j）擺放，判讀誤差約 ±1 欄。
 > 開發板為簡化外形；紫色線束鑽進板底的那一段為示意。
