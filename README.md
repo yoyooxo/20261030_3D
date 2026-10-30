@@ -62,3 +62,11 @@
 ![最小化版正面](perfboard/stacked/top_iso.png)
 ![最小化版反面](perfboard/stacked/bottom_iso.png)
 ![最小化版側視](perfboard/stacked/side.png)
+
+## PCB 正反面並排（檢視用）
+
+[`pcb/pcb_front_back_side_by_side.kicad_pcb`](pcb/)：用 KiCad 打開，**左邊是正面、右邊是已翻過來的背面**，不用手動翻轉；按 Alt+3 可看 3D 光板（只保留板上實際焊的 U3 DMC2038LVT 與 R1）。
+這個檔只供檢視，兩塊板放在同一檔裡，不能直接拿去打樣。
+
+![PCB 正反面並排（3D）](pcb/pcb_front_back_side_by_side.png)
+![PCB 正反面並排（銅層）](pcb/pcb_front_back_copper.png)
