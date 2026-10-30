@@ -11,25 +11,25 @@
 
 ## 電路組成
 
-| 編號 | 元件 | 說明 |
-|---|---|---|
-| U1 | nice!nano v2 相容板（nRF52840） | 藍牙 MCU，電池接在 RAW |
-| U2 | WeAct BlackPill（STM32F401/F411） | 由自己的 USB-C 供電 |
-| U3 | **DMC2038LVT**（Diodes 互補 MOSFET，N＋P 通道，TSOT26） | 裝在 SOT-23 轉 DIP 轉接板上 |
-| R1 | 電阻 | 跨在 U3 的 D1 與 D2 之間 |
-| BT1 | LiPo 電池 | |
+| 元件 | 說明 |
+|---|---|
+| nice!nano v2 相容板（nRF52840） | 藍牙 MCU，電池接在 RAW |
+| WeAct BlackPill（STM32F401/F411） | 由自己的 USB-C 供電 |
+| **DMC2038LVT**（Diodes 互補 MOSFET，N＋P 通道，TSOT26） | 裝在 SOT-23 轉 DIP 轉接板上 |
+| 電阻 R1 | 跨在 DMC2038LVT 的 D1 與 D2 之間 |
+| LiPo 電池 | |
 
 ### 主要連線
 
 | 連線 | 說明 |
 |---|---|
 | UART | BlackPill PA9（TX）→ nice!nano P0.08（RX） |
-| +5V | BlackPill 5V → U3 G2 |
-| GND | nice!nano GND → U3 S1 |
-| U3 G1 ↔ D2 ↔ R1 | 轉接板上那條紅線 |
-| U3 D1 ↔ R1 ↔ nice!nano P1.06 | |
+| +5V | BlackPill 5V → DMC2038LVT G2 |
+| GND | nice!nano GND → DMC2038LVT S1 |
+| DMC2038LVT G1 ↔ D2 ↔ R1 | 轉接板上那條紅線 |
+| DMC2038LVT D1 ↔ R1 ↔ nice!nano P1.06 | |
 
-> 欄位以麵包板座標（欄 1–63、列 a–j）表示，判讀誤差約 ±1 欄；U3 腳位對應依「1 號腳在欄 27 上」推定。
+> 欄位以麵包板座標（欄 1–63、列 a–j）表示，判讀誤差約 ±1 欄；DMC2038LVT 腳位對應依「1 號腳在欄 27 上」推定。
 
 ---
 
@@ -48,9 +48,9 @@
 
 ![整體斜視](3D/overview.png)
 
-| U3（DMC2038LVT）特寫 | 俯視 |
+| DMC2038LVT 特寫 | 俯視 |
 |---|---|
-| ![U3 特寫](3D/u3_closeup.png) | ![俯視](3D/top.png) |
+| ![DMC2038LVT 特寫](3D/u3_closeup.png) | ![俯視](3D/top.png) |
 | **正面低角度** | **反向斜視** |
 | ![正面低角度](3D/front_low.png) | ![反向斜視](3D/reverse.png) |
 
@@ -79,7 +79,7 @@
 ![PCB 正反面並排（3D）](pcb/pcb_front_back_side_by_side.png)
 ![PCB 正反面並排（銅層）](pcb/pcb_front_back_copper.png)
 
-- 2 層板，50.8 × 20.8 mm；nice!nano、U3（DMC2038LVT，SOT-23-6 直接焊）、R1（0805）在正面，BlackPill 在背面。
+- 2 層板，50.8 × 20.8 mm；nice!nano、DMC2038LVT（SOT-23-6 直接焊）、R1（0805）在正面，BlackPill 在背面。
 - 正反兩面鋪滿接地銅，nice!nano 天線端下方不鋪銅、不走線。
 - 這個檔把兩塊板放在同一檔裡，只供檢視，不能直接拿去打樣。
 
