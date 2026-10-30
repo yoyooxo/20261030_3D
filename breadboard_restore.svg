@@ -76,46 +76,46 @@ text{font-family:'Microsoft JhengHei','Noto Sans TC','PingFang TC',sans-serif;fi
 <path d="M340,430 L380,430 L380,520" stroke="#111" stroke-width="3" fill="none"/>
 <path d="M340,470 L380,470" stroke="#111" stroke-width="3" fill="none"/>
 <circle cx="380" cy="470" r="5" fill="#111"/>
-<path d="M380,520 L1170,520" stroke="#111" stroke-width="3" fill="none"/>
+<path d="M380,520 L900,520" stroke="#111" stroke-width="3" fill="none"/>
 <rect x="400" y="490" width="188" height="22" rx="4" fill="#fff" stroke="#111" stroke-width="1.5"/>
 <text x="407" y="506" class="tag" fill="#111">GND_A（nice!nano GND）</text>
-<path d="M340,540 L860,540 L860,520" stroke="#888" stroke-width="2.5" stroke-dasharray="6 6" fill="none"/>
-<circle cx="860" cy="520" r="5" fill="#888"/>
-<text x="400" y="562" class="na" text-anchor="start">紅線：欄12 → 欄27（與 GND 同欄；若成立 = P1.06 接地，輸出高電位會短路）</text>
-<text x="400" y="578" class="unv" text-anchor="start">[UNVERIFIED]</text>
 <rect x="960" y="300" width="140" height="140" rx="6" fill="#fbfbf6" stroke="#333" stroke-width="2"/>
-<text x="1030.0" y="274" class="bt" text-anchor="middle">U3  3.3V LDO（推斷）</text>
-<text x="1030.0" y="292" class="bs" text-anchor="middle">SOT-23-5｜AP2112K-3.3 同腳位系列</text>
+<text x="1030.0" y="274" class="bt" text-anchor="middle">U3  DMC2038LVT</text>
+<text x="1030.0" y="292" class="bs" text-anchor="middle">互補 MOSFET（N+P）TSOT26</text>
 <line x1="930" y1="320" x2="960" y2="320" stroke="#333" stroke-width="2"/>
-<text x="968" y="325" class="pn" text-anchor="start">EN?</text>
+<text x="968" y="325" class="pn" text-anchor="start">G1</text>
 <line x1="930" y1="370" x2="960" y2="370" stroke="#333" stroke-width="2"/>
-<text x="968" y="375" class="pn" text-anchor="start">NC</text>
+<text x="968" y="375" class="pn" text-anchor="start">D1</text>
 <line x1="930" y1="420" x2="960" y2="420" stroke="#333" stroke-width="2"/>
-<text x="968" y="425" class="pn" text-anchor="start">（空）</text>
+<text x="968" y="425" class="pn" text-anchor="start">S1</text>
 <line x1="1100" y1="320" x2="1130" y2="320" stroke="#333" stroke-width="2"/>
-<text x="1092" y="325" class="pn" text-anchor="end">VIN</text>
+<text x="1092" y="325" class="pn" text-anchor="end">G2</text>
 <line x1="1100" y1="370" x2="1130" y2="370" stroke="#333" stroke-width="2"/>
-<text x="1092" y="375" class="pn" text-anchor="end">GND</text>
+<text x="1092" y="375" class="pn" text-anchor="end">S2</text>
 <line x1="1100" y1="420" x2="1130" y2="420" stroke="#333" stroke-width="2"/>
-<text x="1092" y="425" class="pn" text-anchor="end">VOUT</text>
-<circle cx="930" cy="320" r="5" fill="#fff" stroke="#999" stroke-width="1.5"/>
-<text x="920" y="324" class="na" text-anchor="end">未見接線</text>
-<circle cx="930" cy="420" r="5" fill="#fff" stroke="#999" stroke-width="1.5"/>
-<text x="920" y="424" class="na" text-anchor="end">未見接線</text>
-<text x="1030" y="458" class="na" text-anchor="middle">VIN 欄29上｜GND 欄28上｜VOUT 欄29下</text>
-<text x="1030" y="475" class="na" text-anchor="middle">EN 欄27上｜NC 欄27下（依接法推斷）</text>
-<path d="M930,370 L900,370 L900,520" stroke="#111" stroke-width="3" fill="none"/>
+<text x="1092" y="425" class="pn" text-anchor="end">D2</text>
+<text x="1030" y="458" class="na" text-anchor="middle">G1 27上｜S2 28上｜G2 29上</text>
+<text x="1030" y="475" class="na" text-anchor="middle">D1 27下｜S1 28下｜D2 29下（依 1 號腳推定）</text>
+<path d="M930,420 L900,420 L900,520" stroke="#111" stroke-width="3" fill="none"/>
 <circle cx="900" cy="520" r="5" fill="#111"/>
-<text x="890" y="470" class="na" text-anchor="end">綠線（欄2 GND）</text>
+<text x="890" y="470" class="na" text-anchor="end">綠線（欄2 GND → 欄28下）</text>
+<path d="M930,320 L915,320 L915,252 L1140,252 L1140,420" stroke="#444" stroke-width="2" fill="none"/>
+<circle cx="1140" cy="420" r="5" fill="#444"/>
+<text x="1146" y="268" class="na" text-anchor="start">欄27上 ↔ 欄29下 相連</text>
 <path d="M1130,320 L1360,320" stroke="#c81e1e" stroke-width="4" fill="none"/>
 <rect x="1150" y="290" width="192" height="22" rx="4" fill="#fff" stroke="#c81e1e" stroke-width="1.5"/>
 <text x="1157" y="306" class="tag" fill="#c81e1e">+5V（黃線 欄29 ↔ 欄46）</text>
 <path d="M1130,420 L1170,420 L1170,445" stroke="#444" stroke-width="2" fill="none"/>
 <path d="M1170,445 l10,5 l-20,8 l20,8 l-20,8 l20,8 l-20,8 l10,5" stroke="#444" stroke-width="2" fill="none"/>
-<path d="M1170,495 L1170,520" stroke="#111" stroke-width="3" fill="none"/>
-<text x="1188" y="470" class="t" text-anchor="start">R1 負載  欄27–29 c 列</text>
+<path d="M1170,495 L1170,560 L930,560 L930,540" stroke="#444" stroke-width="2" fill="none"/>
+<text x="1188" y="470" class="t" text-anchor="start">R1  欄27–29 c 列</text>
 <text x="1188" y="488" class="t" text-anchor="start">阻值</text>
 <text x="1222" y="488" class="unv" text-anchor="start">[UNVERIFIED]</text>
+<path d="M930,370 L930,370 L930,540" stroke="#444" stroke-width="2" fill="none"/>
+<circle cx="930" cy="540" r="5" fill="#444"/>
+<path d="M340,540 L930,540" stroke="#888" stroke-width="2.5" stroke-dasharray="6 6" fill="none"/>
+<text x="400" y="562" class="na" text-anchor="start">紅線：欄12 → 欄27（接到 U3 欄27下與 R1）</text>
+<text x="400" y="578" class="unv" text-anchor="start">[UNVERIFIED]</text>
 <path d="M1130,370 L1150,370" stroke="#111" stroke-width="2.5" stroke-dasharray="10 6" fill="none"/>
 <rect x="1155" y="358" width="38" height="22" rx="4" fill="#fff" stroke="#111" stroke-width="1.5"/>
 <text x="1162" y="374" class="tag" fill="#111">N36</text>

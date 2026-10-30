@@ -4,7 +4,7 @@
 
 - 左：Pro Micro nRF52840（nice!nano v2 相容）
 - 右：WeAct BlackPill（STM32F401/F411）
-- 中：U3 = **3.3V LDO 穩壓 IC**（SOT-23-5，AP2112K-3.3 同腳位系列），裝在 SOT-23 轉 DIP 轉接板上；吃 BlackPill 的 5V，輸出 3.3V 接負載電阻 R1
+- 中：U3 = **DMC2038LVT**（Diodes，互補 MOSFET：Q1 N 通道＋Q2 P 通道，TSOT26），裝在 SOT-23 轉 DIP 轉接板上；S1 接 GND、G2 接 BlackPill 5V、G1↔D2 相連，R1 跨在 D1 與 D2 之間（腳位對應依 1 號腳在欄27上推定）
 - 其他：LiPo 電池（＋ 接 nRF RAW）、兩組 SWD 引出排針（nRF 側 J4⇄J1、BlackPill 側 J3⇄J2）
 
 > 所有零件與跳線都依判讀出的麵包板座標（欄 1–63、列 a–j）擺放，判讀誤差約 ±1 欄。
@@ -18,7 +18,7 @@
 ### 整體斜視
 ![整體斜視](3D/overview.png)
 
-### U3（3.3V LDO）特寫
+### U3（DMC2038LVT）特寫
 ![U3 特寫](3D/u3_closeup.png)
 
 ### 俯視

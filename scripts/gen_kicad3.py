@@ -57,8 +57,8 @@ rest = [(f"H{i+1}", f"{pre(n)} [{44+i}h]") for i, n in enumerate(top_row) if f"H
 rest += [(f"L{i+1}", f"{pre(n)} [{44+i}d]") for i, n in enumerate(bot_row)]
 u2 = Sym("BlackPill_STM32F411", u2_left, [(n, nm, -17 + i) for i, (n, nm) in enumerate(rest)], 16, "U")
 u4 = Sym("BlackPill_SWD_header", [("1", "3V3", -2), ("2", "DIO PA13", -1), ("3", "SCK PA14", 0), ("4", "GND", 1)], [], 8, "U")
-u3 = Sym("U3_LDO_3V3_SOT23-5", [("3", "EN?", -1), ("4", "NC", 0), ("6", "(空)", 1)],
-         [("1", "VIN", -1), ("2", "GND", 0), ("5", "VOUT", 1)], 6, "U")
+u3 = Sym("U3_DMC2038LVT", [("3", "G1", -1), ("4", "D1", 0), ("6", "S1", 1)],
+         [("1", "G2", -1), ("2", "S2", 0), ("5", "D2", 1)], 6, "U")
 r1 = Sym("R1", [("1", "", 0)], [("2", "", 0)], 2, "R", pad=0.5)
 bt = Sym("BT1_LiPo", [("+", "+", 0)], [("-", "−", 0)], 4, "BT", pad=1)
 def hdr(name, n, side, start, dy0):
@@ -73,8 +73,8 @@ place = {  # ref: (sym, X, Y, value)
     "U1": (u1, 14, 30, "nice!nano 相容 nRF52840"),
     "U2": (u2, 96, 30, "WeAct BlackPill STM32F401/F411"),
     "U4": (u4, 101, 54, "BlackPill SWD 排孔"),
-    "U3": (u3, 52, 22, "3.3V LDO（依接法推斷）"),
-    "R1": (r1, 60, 29, "負載 阻值[UNVERIFIED]"),
+    "U3": (u3, 52, 22, " "),
+    "R1": (r1, 60, 29, "阻值[UNVERIFIED]"),
     "BT1": (bt, 32, 12, "LiPo 欄22(+)/23(−)"),
     "J4": (j4, 15.5, 48, "黃 c列"),
     "J1": (j1, 24.5, 48, "黑 j列"),
@@ -121,16 +121,21 @@ x, y = P("U1", "1"); bx, by = P("BT1", "-"); wire([(x, y), (38, y), (38, by), (b
 # GND_A bus
 (g1x, g1y), (g2x, g2y) = P("U1", "23"), P("U1", "3")
 wire([(g1x, g1y), (22, g1y), (22, g2y)], "gnd"); wire([(g2x, g2y), (22, g2y)], "gnd"); junction(22, g2y)
-x3, y3 = P("U3", "4")
-taps = [44, 46, 63]
+x3, y3 = P("U3", "6")
+taps = [46]
 wire([(22, g2y), (22, BUS), (taps[0], BUS)], "gnd")
 for a, b in zip(taps, taps[1:] + [79]):
     wire([(a, BUS), (b, BUS)], "gnd"); junction(a, BUS)
 label("GND_A", 28, BUS)
-x, y = P("U1", "12"); wire([(x, y), (44, y), (44, BUS)], "unv")
+# col 27 lower half: U3 27下 + R1 (col 27 end) + red wire from U1 col 12
+x, y = P("U1", "12"); n27x, n27y = P("U3", "4")
+wire([(x, y), (42, y)], "unv"); wire([(42, y), (42, n27y), (n27x, n27y)], "misc"); label("N27", 43, n27y)
 wire([(x3, y3), (46, y3), (46, BUS)], "gnd")
 x, y = P("U3", "5"); (rx, ry), (rx2, ry2) = P("R1", "1"), P("R1", "2")
-wire([(x, y), (57, y), (57, ry), (rx, ry)], "misc"); wire([(rx2, ry2), (63, ry2), (63, BUS)], "gnd")
+wire([(x, y), (57, y), (57, ry), (rx, ry)], "misc")
+wire([(rx2, ry2), (63, ry2), (63, 32), (42, 32), (42, P("U1", "12")[1])], "misc")
+# 27上 <-> 29下 link (red marking in the corrected photo)
+lx, ly = P("U3", "3"); wire([(lx, ly), (47, ly), (47, 19), (57, 19), (57, y)], "misc"); junction(57, y)
 jx, jy = P("J2", "5"); wire([(79, BUS), (79, jy), (jx, jy)], "gnd")
 # UART with J2.6 tap
 x, y = P("U1", "2"); px, py = P("U2", "H15")
@@ -158,7 +163,7 @@ text("[!] 電池負極與 P0.06 同欄（欄23），不是 GND", 40, 10.2, 1.4)
 text("X1 [UNVERIFIED]：欄22–23 白色物體，未接入", 40, 13)
 text("紫點線＝紫線束（焊點在板底）[UNVERIFIED]", 6, 61)
 text("下方 − 軌只接欄36", 82, 56.4)
-text("U3 依接法推斷：3.3V LDO（SOT-23-5，AP2112K-3.3 / ME6211C33 / XC6220 同腳位），非讀取晶片字樣。\n腳位對應：VIN=欄29上、GND=欄28上、EN=欄27上、NC=欄27下、VOUT=欄29下、欄28下無腳。", 40, 15.6)
+text("U3：DMC2038LVT 互補 MOSFET（TSOT26；Q1 N 通道 G1/S1/D1、Q2 P 通道 G2/S2/D2）。\n腳↔欄位（依 1 號腳在欄27上推定）：G1=27上 S2=28上 G2=29上 / D1=27下 S1=28下 D2=29下", 40, 15.6)
 
 out = [f'(kicad_sch (version 20231120) (generator "eeschema") (generator_version "8.0")',
        f'(uuid "{ROOT}") (paper "A4")',

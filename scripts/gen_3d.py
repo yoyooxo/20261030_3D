@@ -82,7 +82,7 @@ def tube(mat, pts, r=0.55, n=8, smooth=True):
     u = norm(cross(tans[0], ref))
     rings = []
     for p, t in zip(pts, tans):
-        u = norm(sub(u, mul(t, dot(u, t))))
+        u0 = sub(u, mul(t, dot(u, t))); u = norm(u0) if dot(u0, u0) > 1e-6 else norm(cross(t, (0, 0, 1) if abs(t[2]) < 0.9 else (1, 0, 0)))
         w = cross(t, u)
         rings.append([addv(p, addv(mul(u, r*math.cos(2*math.pi*k/n)), mul(w, r*math.sin(2*math.pi*k/n)))) for k in range(n)])
     for a, b in zip(rings, rings[1:]):
@@ -173,6 +173,13 @@ for dx in (-0.95, 0, 0.95):
 for dx in (-0.95, 0.95):
     box("silver", cx + dx - 0.2, -1.5, z0 + 1.2, cx + dx + 0.2, -0.8, z0 + 1.45)
 disk("gold", cx - 0.95, 0.35, 0.15, z0 + 2.4, z0 + 2.42, 8)   # pin-1 dot
+for dx in (-0.95, 0.95):                                            # 6-pin: middle lead on both sides
+    pass
+box("silver", cx - 0.2, -1.5, z0 + 1.2, cx + 0.2, -0.8, z0 + 1.45)
+# 27上 <-> 29下 link on the adapter (red marking in the corrected photo)
+zt = z0 + 1.65
+tube("w_red", [(X(27), Y("f"), zt), (X(27), Y("f") + 1.4, zt + 0.8), (X(28), Y("f") + 2.4, zt + 1.0), (X(29) + 1.8, Y("f") + 1.6, zt + 1.0),
+               (X(29) + 2.9, 0, zt + 1.0), (X(29) + 1.8, Y("e") - 1.4, zt + 0.8), (X(29), Y("e"), zt)], 0.32)
 
 # pin headers J1/J2 (black, row j), J3/J4 (yellow, rows d/c)
 def strip(mat, c0, c1, r):
@@ -193,15 +200,15 @@ for c, d in ((27, 1), (29, -1)):
 # ---------- wires (from the photo-derived wiring table) ----------
 xc = lambda c: X(c)
 wire("w_red", H(1, "i"), H(22, "i"), [(X(4), 12.0), (X(20), 12.0)], h=10.2)                          # RAW
-wire("w_grn", H(2, "i"), (X(27), Y("e")), [(X(5), 12.8), (X(15), 12.6, 10.8), (X(21), 6.0, 11.6),
-     (X(25), -0.5, 13.0), (X(26.4), -3.0, 13.6)], h=10.6)                                              # GND -> U3 pad
-wire("w_yel", H(1, "c"), H(23, "f"), [(X(0.2), -11.5, 9.6), (X(4), -13.0), (X(16), -13.0), (X(20), -10.0),
-     (X(22.3), -3.0, 11.5), (X(22.8), 1.5, 11.5)], h=9.8)                                              # P0.06 -> col23
+wire("w_grn", H(2, "i"), H(28, "d"), [(X(5), 12.8), (X(15), 12.6, 10.8), (X(21), 6.0, 11.6),
+     (X(25), -0.5, 13.0), (X(26.3), -3.6, 13.4), (X(27.3), -5.6, 12.0)], h=10.6)                       # GND -> col28 lower
+wire("w_yel", H(1, "c"), H(23, "f"), [(X(0.2), -12.0, 9.6), (X(3), -14.6), (X(14), -14.6), (X(17), -12.5, 10.2),
+     (X(19.5), -6.5, 10.8), (X(21.5), -1.0, 11.4), (X(22.7), 2.2, 11.5)], h=9.8)                                              # P0.06 -> col23
 wire("w_org", H(2, "c"), H(19, "f"), [(X(3), -9.9), (X(13), -9.9), (X(16), -5.0, 10.8), (X(18.4), 1.5, 11.2)], h=10.0)
 wire("w_yel", H(3, "c"), H(20, "f"), [(X(4), -10.6), (X(13), -10.6), (X(16.5), -5.0, 11.4), (X(19.4), 1.5, 11.8)], h=10.4)
-wire("w_yel", H(19, "h"), H(41, "h"), [(X(21), 9.9), (X(39), 9.9)], h=10.8)                            # UART
-wire("w_red", H(20, "h"), H(40, "h"), [(X(22), 8.2), (X(38), 8.2)], h=10.0)                            # col20 -> J2.5
-wire("w_pur", H(28, "h"), H(36, "h"), [], h=9.4, r=0.5)                                                # U3 col28 -> col36
+wire("w_yel", H(19, "h"), H(41, "h"), [(X(21), 12.4), (X(39), 12.4)], h=10.8)                            # UART
+wire("w_red", H(20, "h"), H(40, "h"), [(X(22), 10.6), (X(38), 10.6)], h=10.0)                            # col20 -> J2.5
+wire("w_pur", H(28, "h"), H(36, "h"), [], h=TOP + 0.9, r=0.55)                                                # U3 col28 -> col36
 wire("w_yel", H(29, "j"), H(46, "j"), [(X(31), 14.8), (X(44), 14.8)], h=10.6)                          # 5V
 wire("w_grn", H(41, "i"), H(58, "i"), [(X(42.5), 11.6), (X(56.5), 11.6)], h=9.4)                       # under BlackPill -> PA9
 wire("w_red", H(12, "c"), H(27, "c"), [(X(13), -10.2), (X(21), -10.6), (X(25.3), -8.5, 11.5), (X(26), -6.6, 12.5),
@@ -262,7 +269,7 @@ def silk(t, mx, my, size=2.6, just="center"):
 def lead(mx, my0, my1):
     return f'(gr_line (start {OX+mx:.2f} {OY-my0:.2f}) (end {OX+mx:.2f} {OY-my1:.2f}) (stroke (width 0.3) (type default)) (layer "F.SilkS") (uuid "{U()}"))'
 LB = [silk("U1 nice!nano 相容 (nRF52840)", X(1) - 2, -34, 2.2, "left"), lead((X(1)+X(12))/2, -28.3, -32.0),
-      silk("U3 3.3V LDO（依接法推斷）", X(28), -40.5, 2.2), silk("SOT-23-5，AP2112K-3.3 同腳位系列", X(28), -44.5, 1.8), lead(X(28), -28.3, -38.5),
+      silk("U3 DMC2038LVT 互補 MOSFET", X(28), -40.5, 2.2), silk("N+P 通道 TSOT26；S1 接 GND、G1↔D2 相連", X(28), -44.5, 1.8), lead(X(28), -28.3, -38.5),
       silk("U2 WeAct BlackPill (STM32F401/F411)", X(63) + 3, -34, 2.2, "right"), lead((X(44)+X(63))/2, -28.3, -32.0),
       silk("[!] 電池負極在欄23，與 P0.06 同欄（不是 GND）", X(1) - 2, -51, 2.0, "left"),
       silk("BT1 LiPo（欄22 + / 欄23 −）", X(22.5) + 16, 47, 2.2, "left")]
