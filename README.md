@@ -42,3 +42,23 @@
 | `3D/breadboard_3d.kicad_pcb` | 用 KiCad 開啟後按 **Alt+3** 可旋轉檢視 |
 | `3D/breadboard_3d.wrl` | 3D 模型（要跟 kicad_pcb 放在同一個資料夾） |
 | `scripts/` | 產生上述檔案的 Python 腳本 |
+
+## 洞洞板產品 layout（兩個版本）
+
+接線照上面修正後的線路，並做了兩項產品改動：拿掉除錯排針、電池負極改接 GND（另加兩板共地線）。兩版的 USB-C 都是一左一右。
+
+| 版本 | 洞洞板 | 特點 |
+|---|---|---|
+| [平面版（兩板並排）](perfboard/flat/) | 23×18 孔，58.4 × 45.7 mm | 兩塊板子都在正面，nice!nano 天線端淨空，藍牙收訊較好 |
+| [最小化版（上下疊放）](perfboard/stacked/) | 22×10 孔，55.9 × 25.4 mm，厚約 17 mm | BlackPill 在正面，nice!nano、U3、R1、電池在反面；面積少一半，但藍牙收訊會變差 |
+
+每個資料夾裡的 `wiring.md` 是孔位與接線表；`.kicad_pcb` 用 KiCad 開啟後按 **Alt+3** 可旋轉檢視（要跟同資料夾的 `.wrl` 放在一起）。電池尺寸 30×25×5 mm 為照片估計值。
+
+### 平面版
+![平面版正面](perfboard/flat/top_iso.png)
+![平面版反面接線](perfboard/flat/bottom_wiring.png)
+
+### 最小化版
+![最小化版正面](perfboard/stacked/top_iso.png)
+![最小化版反面](perfboard/stacked/bottom_iso.png)
+![最小化版側視](perfboard/stacked/side.png)
