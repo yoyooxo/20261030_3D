@@ -1,97 +1,48 @@
-# 20261030_3D — 麵包板線路還原 → 洞洞板 → PCB
+# 20261030_3D — PCB 平面版
 
-由同一塊麵包板的三張照片，交叉判讀出接線，依序做成原理圖、3D 模型、洞洞板 layout 與 PCB 檢視檔。
+nice!nano（nRF52840）＋ WeAct BlackPill（STM32F401/F411）＋ DMC2038LVT 的 2 層 PCB。
+兩塊開發板都在正面，背面保留給 IC 卡連接器（型號待定）。
 
-| 步驟 | 內容 | 位置 |
-|---|---|---|
-| 1. 線路還原 | 原理圖、分區說明圖 | 根目錄 |
-| 2. 3D 模型 | 麵包板組裝的 3D 圖 | [`3D/`](3D/) |
-| 3. 洞洞板 | 兩種 layout（平面版、最小化版） | [`perfboard/`](perfboard/) |
-| 4. PCB | 正反面並排檢視檔 | [`pcb/`](pcb/) |
+![3D 正面斜視](pcb_flat/3d_top_iso.png)
 
-## 電路組成
+## 正反面
 
-| 元件 | 說明 |
+左：正面　右：背面（已翻過來）
+
+![PCB 正反面](pcb_flat/front_back.png)
+
+## 規格
+
+| 項目 | 內容 |
 |---|---|
-| nice!nano v2 相容板（nRF52840） | 藍牙 MCU，電池接在 RAW |
-| WeAct BlackPill（STM32F401/F411） | 由自己的 USB-C 供電 |
-| **DMC2038LVT**（Diodes 互補 MOSFET，N＋P 通道，TSOT26） | 裝在 SOT-23 轉 DIP 轉接板上 |
-| 電阻 R1 | 跨在 DMC2038LVT 的 D1 與 D2 之間 |
-| LiPo 電池 | |
+| 板子 | 53.0 × 40.0 mm，2 層，1.6 mm FR4 |
+| 含兩端 USB-C | 約 56 × 40 mm，厚約 7.9 mm |
+| 正面 | BlackPill（上半，USB-C 朝右）、nice!nano（下半，USB-C 朝左）、DMC2038LVT（SOT-23-6）、R1（0805） |
+| 背面 | 無零件，保留給 IC 卡連接器 |
+| 鋪銅 | 正反兩面接地鋪銅；nice!nano 天線端下方不鋪銅、不走線 |
+| DRC | 0 違規、0 未連接（[`drc_report.txt`](pcb_flat/drc_report.txt)） |
 
-### 主要連線
+## 連線
 
 | 連線 | 說明 |
 |---|---|
 | UART | BlackPill PA9（TX）→ nice!nano P0.08（RX） |
 | +5V | BlackPill 5V → DMC2038LVT G2 |
-| GND | nice!nano GND → DMC2038LVT S1 |
-| DMC2038LVT G1 ↔ D2 ↔ R1 | 轉接板上那條紅線 |
-| DMC2038LVT D1 ↔ R1 ↔ nice!nano P1.06 | |
+| GND | nice!nano GND、BlackPill G、DMC2038LVT S1/S2（鋪銅） |
+| G1 ↔ D2 ↔ R1 | DMC2038LVT G1、D2 與 R1 一端 |
+| D1 ↔ R1 ↔ P1.06 | DMC2038LVT D1、R1 另一端與 nice!nano P1.06 |
 
-> 欄位以麵包板座標（欄 1–63、列 a–j）表示，判讀誤差約 ±1 欄；DMC2038LVT 腳位對應依「1 號腳在欄 27 上」推定。
+## 檔案（[`pcb_flat/`](pcb_flat/)）
 
----
-
-## 1. 線路還原
-
-![分區說明圖](breadboard_annotated.png)
-
-| 檔案 | 內容 |
+| 檔案 | 用途 |
 |---|---|
-| `breadboard_annotated.png` / `.svg` | 分區說明圖（A–H 功能分區＋訊號與電源路徑） |
-| `breadboard_restore.kicad_sch` | KiCad 原理圖 |
-| `breadboard_restore_kicad.pdf` / `.svg` | KiCad 匯出的原理圖 |
-| `breadboard_restore.svg` / `_preview.png` | 手繪版示意圖 |
+| `flat_pcb.kicad_pcb` / `.kicad_pro` | PCB 原始檔，用 KiCad 開啟（按 Alt+3 看 3D；`flatpcb_*.wrl` 要放同一資料夾） |
+| `flat_pcb_gerber.zip` | Gerber＋鑽孔，可直接上傳板廠 |
+| `front_back_view.kicad_pcb` | 打開即是正反面並排（只供檢視，不可拿去打樣） |
+| `3d_top_iso.png`、`3d_side.png`、`front_back.png` | 預覽圖 |
 
-## 2. 3D 模型
+## 組裝注意
 
-![整體斜視](3D/overview.png)
-
-| DMC2038LVT 特寫 | 俯視 |
-|---|---|
-| ![DMC2038LVT 特寫](3D/u3_closeup.png) | ![俯視](3D/top.png) |
-| **正面低角度** | **反向斜視** |
-| ![正面低角度](3D/front_low.png) | ![反向斜視](3D/reverse.png) |
-
-用 KiCad 開 `3D/breadboard_3d.kicad_pcb`，按 **Alt+3** 可旋轉檢視（`.wrl` 要放在同一個資料夾）。
-
-## 3. 洞洞板 layout
-
-照上面的線路做成產品，並做了兩項改動：拿掉除錯排針、電池負極改接 GND（另加兩板共地線）。兩版的 USB-C 都是一左一右。
-
-| 版本 | 尺寸 | 特點 |
-|---|---|---|
-| [平面版（兩板並排）](perfboard/flat/) | 23×18 孔，58.4 × 45.7 mm | 兩塊板都在正面，nice!nano 天線端淨空，藍牙收訊較好 |
-| [最小化版（上下疊放）](perfboard/stacked/) | 22×10 孔，55.9 × 25.4 mm，厚約 17 mm | 面積少一半，但 nice!nano 夾在中間，藍牙收訊較差 |
-
-| 平面版 | 最小化版 |
-|---|---|
-| ![平面版正面](perfboard/flat/top_iso.png) | ![最小化版正面](perfboard/stacked/top_iso.png) |
-| ![平面版反面接線](perfboard/flat/bottom_wiring.png) | ![最小化版反面](perfboard/stacked/bottom_iso.png) |
-
-每個資料夾裡的 `wiring.md` 是孔位與接線表；`.kicad_pcb` 用 KiCad 開啟後按 **Alt+3** 可旋轉檢視（要跟同資料夾的 `.wrl` 放在一起）。電池尺寸 30×25×5 mm 為照片估計值。
-
-## 4. PCB（正反面並排檢視）
-
-用 KiCad 打開 [`pcb/pcb_front_back_side_by_side.kicad_pcb`](pcb/)，**左邊是正面、右邊是已翻過來的背面**，不用手動翻轉；按 **Alt+3** 可看 3D 光板。
-
-![PCB 正反面並排（3D）](pcb/pcb_front_back_side_by_side.png)
-![PCB 正反面並排（銅層）](pcb/pcb_front_back_copper.png)
-
-- 2 層板，50.8 × 20.8 mm；nice!nano、DMC2038LVT（SOT-23-6 直接焊）、R1（0805）在正面，BlackPill 在背面。
-- 正反兩面鋪滿接地銅，nice!nano 天線端下方不鋪銅、不走線。
-- 這個檔把兩塊板放在同一檔裡，只供檢視，不能直接拿去打樣。
-
-## 目錄
-
-```
-├─ README.md
-├─ breadboard_*.{kicad_sch,pdf,svg,png}   線路還原
-├─ 3D/                                    麵包板 3D 模型與算圖
-├─ perfboard/
-│  ├─ flat/                               洞洞板平面版
-│  └─ stacked/                            洞洞板最小化版
-├─ pcb/                                   PCB 正反面並排檢視
-└─ scripts/                               產生上述檔案的 Python 腳本
-```
+1. 兩塊模組貼板焊（間隙約 0.5 mm），背面針腳剪平。
+2. 電池直接焊在 nice!nano 的 B+ / B− 焊盤，不經過這塊板子。
+3. R1 阻值待定。
