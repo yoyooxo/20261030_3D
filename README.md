@@ -11,6 +11,12 @@ nice!nano（nRF52840）＋ WeAct BlackPill（STM32F401/F411）＋ DMC2038LVT 的
 
 ![PCB 正反面](pcb_flat/front_back.png)
 
+## 尺寸（mm）
+
+**板子 53.0 × 40.0｜含兩端 USB-C 56.0 × 40.0｜厚 7.9**
+
+![尺寸標示](pcb_flat/dimensions.png)
+
 ## 規格
 
 | 項目 | 內容 |
@@ -39,6 +45,7 @@ nice!nano（nRF52840）＋ WeAct BlackPill（STM32F401/F411）＋ DMC2038LVT 的
 | `flat_pcb.kicad_pcb` / `.kicad_pro` | PCB 原始檔，用 KiCad 開啟（按 Alt+3 看 3D；`flatpcb_*.wrl` 要放同一資料夾） |
 | `flat_pcb_gerber.zip` | Gerber＋鑽孔，可直接上傳板廠 |
 | `front_back_view.kicad_pcb` | 打開即是正反面並排（只供檢視，不可拿去打樣） |
+| `dimensions.png` | 尺寸標示圖（長、寬、厚） |
 | `3d_top_iso.png`、`3d_side.png`、`front_back.png` | 預覽圖 |
 
 ## 組裝注意
