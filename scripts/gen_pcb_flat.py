@@ -23,7 +23,8 @@ NANO_T, NANO_B = NANO_CY - 7.62, NANO_CY + 7.62       # RAW row (top) / P0.06 ro
 NANO_X = [NANO_CX - 13.97 + i * P for i in range(12)] # index 0 = USB end (-X)
 U3_AT = (17.0, 9.0)
 R1_AT = (21.0, 9.0)
-ANT = (5.2, 2.5, 10.0, 18.8)                          # antenna keep-out x0, y0, x1, y1
+ANT = (5.2, 2.5, 10.0, 18.8)
+BAT = (-15.0, -23.0, 15.0, 2.0)                      # LiPo 30 x 25 x 5 stacked on the BlackPill (x0, y0, x1, y1)                          # antenna keep-out x0, y0, x1, y1
 
 def tht(num, x, y, n="", shape="circle", zc=""):
     return (f'(pad "{num}" thru_hole {shape} (at {f(x)} {f(y)}) (size 1.7 1.7) (drill 1.0) '
@@ -37,7 +38,7 @@ def text(layer, s, x, y, size=1.0):
     return f'(fp_text user "{s}" (at {f(x)} {f(y)} 0) (layer "{layer}") (uuid "{U()}") (effects (font (size {size} {size}) (thickness 0.15))))'
 def fp(ref, value, at, pads, graphics, model=None, ref_at=(0, 0), attr="through_hole"):
     s = [f'(footprint "pcb:{value}" (layer "F.Cu") (uuid "{U()}") (at {f(OX + at[0])} {f(OY + at[1])})',
-         f'  (property "Reference" "{ref}" (at {f(ref_at[0])} {f(ref_at[1])} 0) (layer "F.SilkS") (uuid "{U()}") (effects (font (size 1 1) (thickness 0.15))))',
+         f'  (property "Reference" "{ref}" (at {f(ref_at[0])} {f(ref_at[1])} 0) (layer "F.SilkS") {"(hide yes) " if ref == "BT1" else ""}(uuid "{U()}") (effects (font (size 1 1) (thickness 0.15))))',
          f'  (property "Value" "{value}" (at 0 0 0) (layer "F.Fab") (hide yes) (uuid "{U()}") (effects (font (size 1 1) (thickness 0.15))))',
          f'  (attr {attr})'] + ["  " + g for g in graphics] + ["  " + p for p in pads]
     if model:
@@ -90,6 +91,8 @@ footprints = [
        ref_at=(0, -2.6), attr="smd"),
     fp("R1", "R_0805", R1_AT, r1_pads, r1_g, "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step",
        ref_at=(1.9, 0), attr="smd"),
+    fp("BT1", "LiPo_30x25x5_on_BlackPill", (0, 0), [], [rect("F.Fab", BAT[0], BAT[1], BAT[2], BAT[3], 0.1)],
+       f"{MD}/flatpcb_battery.wrl", ref_at=((BAT[0] + BAT[2]) / 2, (BAT[1] + BAT[3]) / 2), attr="board_only exclude_from_pos_files exclude_from_bom"),
 ]
 
 # ---------- tracks ----------
@@ -199,7 +202,7 @@ class M:
         fc += [[b+3, b+2, b+1, b], [b+4, b+5, b+6, b+7]] + [[b+i, b+(i+1) % 4, b+4+(i+1) % 4, b+4+i] for i in range(4)]
     def write(s, path):
         col = {"pcb": "0.07 0.07 0.08", "silver": "0.8 0.8 0.82", "chip": "0.13 0.13 0.14", "gold": "0.85 0.66 0.28",
-               "red": "0.8 0.12 0.12", "cap": "0.15 0.15 0.15", "white": "0.95 0.95 0.95"}
+               "red": "0.8 0.12 0.12", "cap": "0.15 0.15 0.15", "white": "0.86 0.86 0.88", "kapton": "0.92 0.58 0.12", "black": "0.06 0.06 0.06"}
         with open(path, "w", encoding="utf-8") as fh:
             fh.write("#VRML V2.0 utf8\n")
             for mat, (v, fc) in s.mesh.items():
@@ -208,7 +211,7 @@ class M:
                 fh.write(f"Shape {{ appearance Appearance {{ material Material {{ diffuseColor {col[mat]} specularColor 0.25 0.25 0.25 shininess 0.3 }} }}\n"
                          f" geometry IndexedFaceSet {{ solid FALSE creaseAngle 0.5 coord Coordinate {{ point [\n{pts}\n] }} coordIndex [ {idx} ] }} }}\n")
 GAP, T = 0.5, 1.6
-z0, z1 = 1.6 + GAP, 1.6 + GAP + T
+z0, z1 = GAP, GAP + T                               # KiCad: model origin = board top surface
 bp = M(); cy = (BP_Y1 + BP_Y2) / 2
 bp.box("pcb", -26.5, cy - 10.5, z0, 26.5, cy + 10.5, z1)
 bp.box("silver", 26.5 - 7, cy - 4.5, z1, 28.0, cy + 4.5, z1 + 3.2)
@@ -217,7 +220,7 @@ for bx, by in ((-12.0, cy - 3.0), (13.5, cy - 4.0), (13.5, cy + 2.5)):
     bp.box("silver", bx - 2.2, by - 1.8, z1, bx + 2.2, by + 1.8, z1 + 1.6); bp.disk("cap", bx, by, 1.0, z1 + 1.6, z1 + 2.3)
 for x in BP_X:
     for y in (BP_Y1, BP_Y2):
-        bp.disk("gold", x, y, 0.85, z1, z1 + 0.05, 10); bp.box("gold", x - 0.32, y - 0.32, -1.0, x + 0.32, y + 0.32, z1 + 0.3)
+        bp.disk("gold", x, y, 0.85, z1, z1 + 0.05, 10); bp.box("gold", x - 0.32, y - 0.32, -2.6, x + 0.32, y + 0.32, z1 + 0.3)
 bp.write(os.path.join(OUT, "flatpcb_blackpill.wrl"))
 nn = M()
 nn.box("pcb", NANO_CX - 16.65, NANO_CY - 9, z0, NANO_CX + 16.65, NANO_CY + 9, z1)
@@ -226,6 +229,17 @@ nn.diamond("chip", NANO_CX + 1.5, NANO_CY, 4.9, z1, z1 + 0.9)
 nn.box("red", NANO_CX + 12.2, NANO_CY - 1.5, z1, NANO_CX + 13.8, NANO_CY + 2.5, z1 + 0.6)
 for x in NANO_X:
     for y in (NANO_T, NANO_B):
-        nn.disk("gold", x, y, 0.85, z1, z1 + 0.05, 10); nn.box("gold", x - 0.32, y - 0.32, -1.0, x + 0.32, y + 0.32, z1 + 0.3)
+        nn.disk("gold", x, y, 0.85, z1, z1 + 0.05, 10); nn.box("gold", x - 0.32, y - 0.32, -2.6, x + 0.32, y + 0.32, z1 + 0.3)
 nn.write(os.path.join(OUT, "flatpcb_nicenano.wrl"))
+# battery: rests on the BlackPill buttons (+0.2 mm tape), 5 mm thick
+bt = M(); BZ0 = z1 + 2.3 + 0.2
+bt.box("white", BAT[0], BAT[1], BZ0, BAT[2], BAT[3], BZ0 + 5.0)
+bt.box("kapton", BAT[0] - 0.05, BAT[1] - 0.05, BZ0 - 0.05, BAT[0] + 9.0, BAT[3] + 0.05, BZ0 + 5.05)
+for col_, yy, dx in (("red", 0.8, 0.0), ("black", 0.8, 1.6)):
+    x = BAT[0] + 3.0 + dx
+    bt.box(col_, x - 0.35, BAT[3] - 0.6, BZ0 + 2.0, x + 0.35, BAT[3] + 0.4, BZ0 + 2.7)
+    bt.box(col_, x - 0.35, BAT[3], z1 + 0.6, x + 0.35, BAT[3] + 0.7, BZ0 + 2.7)
+    bt.box(col_, NANO_X[0] + dx, BAT[3], z1 + 0.6, x + 0.35, BAT[3] + 0.7, z1 + 1.3)
+bt.write(os.path.join(OUT, "flatpcb_battery.wrl"))
+print("battery z %.1f..%.1f mm above board bottom" % (BZ0, BZ0 + 5.0))
 print("board %.1f x %.1f mm" % (2 * BX, 2 * BY))
