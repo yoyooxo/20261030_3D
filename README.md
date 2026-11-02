@@ -49,6 +49,15 @@ nice!nano（nRF52840）＋ WeAct BlackPill（STM32F401/F411）＋ DMC2038LVT 的
 | `dimensions.png` | 尺寸標示圖（長、寬、厚） |
 | `3d_top_iso.png`、`3d_side.png`、`front_back.png` | 預覽圖 |
 
+## 洞洞板 Layout（62 × 62 mm）
+
+洞洞板 24 × 24 孔（2.54 mm 間距）。兩個 USB-C 都朝左、貼齊板邊。零件全在正面，焊線全走背面，彼此不交叉。
+孔位用 (欄 c, 列 r) 標示，對照圖下方的接線表焊接。
+
+![洞洞板 Layout 62x62](perfboard/perfboard_layout_62x62.png)
+
+檔案：[`perfboard/perfboard_layout_62x62.png`](perfboard/perfboard_layout_62x62.png)、[`.svg`](perfboard/perfboard_layout_62x62.svg)（產生程式 `scripts/gen_layout_6262.py`）
+
 ## 組裝注意
 
 1. 兩塊模組貼板焊（間隙約 0.5 mm），背面針腳剪平。
