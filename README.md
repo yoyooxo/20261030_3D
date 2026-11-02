@@ -1,65 +1,56 @@
-# 20261030_3D — PCB 平面版
+# 20261030_3D — 洞洞板版（62 × 62 mm）
 
-nice!nano（nRF52840）＋ WeAct BlackPill（STM32F401/F411）＋ DMC2038LVT 的 2 層 PCB。
-兩塊開發板都在正面，電池疊在 BlackPill 上，背面保留給 IC 卡連接器（型號待定）。
+nice!nano（nRF52840）＋ WeAct BlackPill（STM32F401/F411）＋ DMC2038LVT，焊在一塊 62 × 62 mm 洞洞板上。
+兩塊開發板和 DMC2038LVT 都在正面，兩個 USB-C 都朝左、貼齊板邊；焊線全走背面，背面其餘空間保留給 IC 卡連接器（型號待定）。
 
-![3D 正面斜視](pcb_flat/3d_top_iso.png)
-
-## 正反面
-
-左：正面　右：背面（已翻過來）
-
-![PCB 正反面](pcb_flat/front_back.png)
-
-## 尺寸（mm）
-
-**整體 56.0 × 43.0 × 12.2（含電池、兩端 USB-C）｜板子 53.0 × 40.0**
-
-![尺寸標示](pcb_flat/dimensions.png)
+![洞洞板 Layout 62x62](perfboard/perfboard_layout_62x62.png)
 
 ## 規格
 
 | 項目 | 內容 |
 |---|---|
-| 板子 | 53.0 × 40.0 mm，2 層，1.6 mm FR4 |
-| 整體（含電池、兩端 USB-C） | 約 56.0 × 43.0 × 12.2 mm |
-| 電池 | LiPo 約 30 × 25 × 5 mm（照片估計），用膠帶疊在 BlackPill 上，往板外凸出 3 mm；線焊到 nice!nano 的 B+ / B− |
-| 正面 | BlackPill（上半，USB-C 朝右）、nice!nano（下半，USB-C 朝左）、DMC2038LVT（SOT-23-6）、R1（0805） |
-| 背面 | 無零件，保留給 IC 卡連接器 |
-| 鋪銅 | 正反兩面接地鋪銅；nice!nano 天線端下方不鋪銅、不走線 |
-| DRC | 0 違規、0 未連接（[`drc_report.txt`](pcb_flat/drc_report.txt)） |
+| 洞洞板 | 62 × 62 mm，24 × 24 孔，2.54 mm 間距 |
+| 孔位標示 | (欄 c, 列 r)：c 為 1–24（左→右），r 為 1–24（下→上），正面俯視 |
+| 正面 | BlackPill（上半）、nice!nano（下半）、DMC2038LVT（SOT-23-6 轉接板）、R1 |
+| USB-C | 兩個都朝左，貼齊左板邊 |
+| 背面 | 只有焊線，彼此不交叉；其餘保留給 IC 卡連接器 |
+| 空孔 | 上方 4 列、下方 4 列、右側 3 欄 |
 
-## 連線
+## 零件位置（全部在正面）
 
-| 連線 | 說明 |
+| 零件 | 孔位 |
 |---|---|
-| UART | BlackPill PA9（TX）→ nice!nano P0.08（RX） |
-| +5V | BlackPill 5V → DMC2038LVT G2 |
-| GND | nice!nano GND、BlackPill G、DMC2038LVT S1/S2（鋪銅） |
-| G1 ↔ D2 ↔ R1 | DMC2038LVT G1、D2 與 R1 一端 |
-| D1 ↔ R1 ↔ P1.06 | DMC2038LVT D1、R1 另一端與 nice!nano P1.06 |
+| BlackPill | r13：B12 c1 … PA9 c6 … 5V c18、G c19、3.3 c20；r19：5V c1、G c2、3.3 c3 … VB c20 |
+| nice!nano | r5：P0.06 c2、P0.08 c3、GND c4/c5 … P1.06 c13；r11：RAW c2、GND c3、RST c4、VCC c5 … P0.09 c13 |
+| DMC2038LVT | r10：G1 c17、S2 c18、G2 c19；r7：D1 c17、S1 c18、D2 c19 |
+| R1 | c17 r5 ↔ c20 r5 |
 
-## 檔案（[`pcb_flat/`](pcb_flat/)）
+## 接線（全部走背面）
 
-| 檔案 | 用途 |
-|---|---|
-| `flat_pcb.kicad_pcb` / `.kicad_pro` | PCB 原始檔，用 KiCad 開啟（按 Alt+3 看 3D，含電池；`flatpcb_*.wrl` 要放同一資料夾） |
-| `flat_pcb_gerber.zip` | Gerber＋鑽孔，可直接上傳板廠 |
-| `front_back_view.kicad_pcb` | 打開即是正反面並排（只供檢視，不可拿去打樣） |
-| `dimensions.png` | 尺寸標示圖（長、寬、厚） |
-| `3d_top_iso.png`、`3d_side.png`、`front_back.png` | 預覽圖 |
-
-## 洞洞板 Layout（62 × 62 mm）
-
-洞洞板 24 × 24 孔（2.54 mm 間距）。兩個 USB-C 都朝左、貼齊板邊。零件全在正面，焊線全走背面，彼此不交叉。
-孔位用 (欄 c, 列 r) 標示，對照圖下方的接線表焊接。
-
-![洞洞板 Layout 62x62](perfboard/perfboard_layout_62x62.png)
-
-檔案：[`perfboard/perfboard_layout_62x62.png`](perfboard/perfboard_layout_62x62.png)、[`.svg`](perfboard/perfboard_layout_62x62.svg)（產生程式 `scripts/gen_layout_6262.py`）
+| 線號 | 起點 | 終點 | 用途 |
+|---|---|---|---|
+| W1 | 電池 ＋ | nice!nano RAW (c2,r11) | 電池正極（RAW 即 B+） |
+| W2 | 電池 － | nice!nano GND (c3,r11) | 電池負極 → GND |
+| W3 | BlackPill PA9 (c6,r13) | nice!nano P0.08 (c3,r5) | UART：BlackPill TX → nRF RX |
+| W4 | nice!nano GND (c3,r11) | BlackPill G (c2,r19) | 兩板共地 |
+| W5 | BlackPill 5V (c18,r13) | DMC2038LVT G2 (c19,r10) | 5V → G2 |
+| W6 | BlackPill G (c19,r13) | DMC2038LVT S2 (c18,r10) | S2 → GND（從右側繞過） |
+| W7 | DMC2038LVT S2 (c18,r10) | DMC2038LVT S1 (c18,r7) | S1 → GND |
+| W8 | DMC2038LVT G1 (c17,r10) | DMC2038LVT D2 (c19,r7) | G1 ↔ D2（焊在轉接板正面） |
+| W9 | DMC2038LVT D2 (c19,r7) | R1 (c20,r5) | D2 → R1 |
+| W10 | DMC2038LVT D1 (c17,r7) | R1 (c17,r5) | D1 → R1 |
+| W11 | R1 (c17,r5) | nice!nano P1.06 (c13,r5) | D1 → nRF P1.06 |
 
 ## 組裝注意
 
-1. 兩塊模組貼板焊（間隙約 0.5 mm），背面針腳剪平。
-2. 電池用絕緣膠帶貼在 BlackPill 上（會蓋住 BlackPill 的按鍵），紅黑線焊到 nice!nano 的 B+ / B− 焊盤，不經過這塊板子。
+1. 兩塊模組貼板焊，背面針腳剪平。
+2. 焊線照上表與圖上的孔位，全部走背面。
 3. R1 阻值待定。
+
+## 檔案
+
+| 檔案 | 用途 |
+|---|---|
+| [`perfboard/perfboard_layout_62x62.png`](perfboard/perfboard_layout_62x62.png) / [`.svg`](perfboard/perfboard_layout_62x62.svg) | 洞洞板 layout 圖（正面、背面、接線表） |
+| `scripts/gen_layout_6262.py` | 產生 layout 圖的程式 |
+| [`pcb_flat/`](pcb_flat/) | 先前的 PCB 平面版（53 × 40 mm，USB-C 不同邊），保留參考 |
