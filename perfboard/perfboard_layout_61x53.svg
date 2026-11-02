@@ -1,17 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1410" viewBox="0 0 1700 1410">
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="1290" viewBox="0 0 1700 1290">
 <style>text{font-family:'Microsoft JhengHei','Noto Sans TC',sans-serif;fill:#1f2328}
 .h1{font-size:26px;font-weight:700}.h2{font-size:19px;font-weight:700}.sub{font-size:14px;fill:#57606a}
 .ax{font-size:11px;fill:#6e7781}.pl{font-size:11px;font-weight:700}.pt{font-size:14px;font-weight:700}
 .tb{font-size:13px}.th{font-size:13px;font-weight:700}</style>
-<rect width="1700" height="1410" fill="#fff"/>
-<text x="30" y="42" class="h1">洞洞板 Layout — 平面版・USB 同側（62 × 62 mm，24 × 24 孔）</text>
-<text x="30" y="66" class="sub">零件全部在正面、線全部走背面。孔位 (c, r)：c＝欄 1–24、r＝列 1–24，一律以「正面俯視」為準；背面圖是翻過來看（左右相反），欄號照樣標出方便對照。</text>
-<text x="30" y="108" class="h2">① 正面（零件面，俯視）</text><text x="30" y="130" class="sub">nice!nano、BlackPill、DMC2038LVT、R1 都插在這面；電池（橘虛框）用膠帶疊在 BlackPill 上</text>
-<rect x="48.9" y="158.9" width="732.3" height="732.3" fill="#1f5a3a" rx="6"/>
-<circle cx="70" cy="870" r="6.5" fill="#d9dde3"/><circle cx="70" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="70" cy="840" r="6.5" fill="#d9dde3"/><circle cx="70" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="70" cy="810" r="6.5" fill="#d9dde3"/><circle cx="70" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="70" cy="780" r="6.5" fill="#d9dde3"/><circle cx="70" cy="780" r="2.8" fill="#1f5a3a"/>
+<rect width="1700" height="1290" fill="#fff"/>
+<text x="30" y="42" class="h1">洞洞板 Layout — 平面版・USB 同側（長 61 × 寬 53 mm，24 × 20 孔，高約 12–13 mm 含電池）</text>
+<text x="30" y="66" class="sub">零件和線全部在正面（線用 OK 線），背面只有焊點。孔位 (c, r)：c＝欄 1–24、r＝列 1–20，一律以「正面俯視」為準；背面圖是翻過來看（左右相反），欄號照樣標出方便對照。</text>
+<text x="30" y="108" class="h2">① 正面（零件面，俯視）— 線全部在這面</text><text x="30" y="130" class="sub">零件都插在這面；所有線用 OK 線焊在零件腳上方；電池（橘虛框）用膠帶疊在 BlackPill 上</text>
+<rect x="54.8" y="152.0" width="720.5" height="626.0" fill="#1f5a3a" rx="6"/>
 <circle cx="70" cy="750" r="6.5" fill="#d9dde3"/><circle cx="70" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="70" cy="720" r="6.5" fill="#d9dde3"/><circle cx="70" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="70" cy="690" r="6.5" fill="#d9dde3"/><circle cx="70" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -33,10 +29,6 @@
 <circle cx="70" cy="210" r="6.5" fill="#d9dde3"/><circle cx="70" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="70" cy="180" r="6.5" fill="#d9dde3"/><circle cx="70" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="70" y="157.0" class="ax" text-anchor="middle">1</text>
-<circle cx="100" cy="870" r="6.5" fill="#d9dde3"/><circle cx="100" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="100" cy="840" r="6.5" fill="#d9dde3"/><circle cx="100" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="100" cy="810" r="6.5" fill="#d9dde3"/><circle cx="100" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="100" cy="780" r="6.5" fill="#d9dde3"/><circle cx="100" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="100" cy="750" r="6.5" fill="#d9dde3"/><circle cx="100" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="100" cy="720" r="6.5" fill="#d9dde3"/><circle cx="100" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="100" cy="690" r="6.5" fill="#d9dde3"/><circle cx="100" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -58,10 +50,6 @@
 <circle cx="100" cy="210" r="6.5" fill="#d9dde3"/><circle cx="100" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="100" cy="180" r="6.5" fill="#d9dde3"/><circle cx="100" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="100" y="157.0" class="ax" text-anchor="middle">2</text>
-<circle cx="130" cy="870" r="6.5" fill="#d9dde3"/><circle cx="130" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="130" cy="840" r="6.5" fill="#d9dde3"/><circle cx="130" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="130" cy="810" r="6.5" fill="#d9dde3"/><circle cx="130" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="130" cy="780" r="6.5" fill="#d9dde3"/><circle cx="130" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="130" cy="750" r="6.5" fill="#d9dde3"/><circle cx="130" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="130" cy="720" r="6.5" fill="#d9dde3"/><circle cx="130" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="130" cy="690" r="6.5" fill="#d9dde3"/><circle cx="130" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -83,10 +71,6 @@
 <circle cx="130" cy="210" r="6.5" fill="#d9dde3"/><circle cx="130" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="130" cy="180" r="6.5" fill="#d9dde3"/><circle cx="130" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="130" y="157.0" class="ax" text-anchor="middle">3</text>
-<circle cx="160" cy="870" r="6.5" fill="#d9dde3"/><circle cx="160" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="160" cy="840" r="6.5" fill="#d9dde3"/><circle cx="160" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="160" cy="810" r="6.5" fill="#d9dde3"/><circle cx="160" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="160" cy="780" r="6.5" fill="#d9dde3"/><circle cx="160" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="160" cy="750" r="6.5" fill="#d9dde3"/><circle cx="160" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="160" cy="720" r="6.5" fill="#d9dde3"/><circle cx="160" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="160" cy="690" r="6.5" fill="#d9dde3"/><circle cx="160" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -108,10 +92,6 @@
 <circle cx="160" cy="210" r="6.5" fill="#d9dde3"/><circle cx="160" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="160" cy="180" r="6.5" fill="#d9dde3"/><circle cx="160" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="160" y="157.0" class="ax" text-anchor="middle">4</text>
-<circle cx="190" cy="870" r="6.5" fill="#d9dde3"/><circle cx="190" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="190" cy="840" r="6.5" fill="#d9dde3"/><circle cx="190" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="190" cy="810" r="6.5" fill="#d9dde3"/><circle cx="190" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="190" cy="780" r="6.5" fill="#d9dde3"/><circle cx="190" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="190" cy="750" r="6.5" fill="#d9dde3"/><circle cx="190" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="190" cy="720" r="6.5" fill="#d9dde3"/><circle cx="190" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="190" cy="690" r="6.5" fill="#d9dde3"/><circle cx="190" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -133,10 +113,6 @@
 <circle cx="190" cy="210" r="6.5" fill="#d9dde3"/><circle cx="190" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="190" cy="180" r="6.5" fill="#d9dde3"/><circle cx="190" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="190" y="157.0" class="ax" text-anchor="middle">5</text>
-<circle cx="220" cy="870" r="6.5" fill="#d9dde3"/><circle cx="220" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="220" cy="840" r="6.5" fill="#d9dde3"/><circle cx="220" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="220" cy="810" r="6.5" fill="#d9dde3"/><circle cx="220" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="220" cy="780" r="6.5" fill="#d9dde3"/><circle cx="220" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="220" cy="750" r="6.5" fill="#d9dde3"/><circle cx="220" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="220" cy="720" r="6.5" fill="#d9dde3"/><circle cx="220" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="220" cy="690" r="6.5" fill="#d9dde3"/><circle cx="220" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -158,10 +134,6 @@
 <circle cx="220" cy="210" r="6.5" fill="#d9dde3"/><circle cx="220" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="220" cy="180" r="6.5" fill="#d9dde3"/><circle cx="220" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="220" y="157.0" class="ax" text-anchor="middle">6</text>
-<circle cx="250" cy="870" r="6.5" fill="#d9dde3"/><circle cx="250" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="250" cy="840" r="6.5" fill="#d9dde3"/><circle cx="250" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="250" cy="810" r="6.5" fill="#d9dde3"/><circle cx="250" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="250" cy="780" r="6.5" fill="#d9dde3"/><circle cx="250" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="250" cy="750" r="6.5" fill="#d9dde3"/><circle cx="250" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="250" cy="720" r="6.5" fill="#d9dde3"/><circle cx="250" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="250" cy="690" r="6.5" fill="#d9dde3"/><circle cx="250" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -183,10 +155,6 @@
 <circle cx="250" cy="210" r="6.5" fill="#d9dde3"/><circle cx="250" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="250" cy="180" r="6.5" fill="#d9dde3"/><circle cx="250" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="250" y="157.0" class="ax" text-anchor="middle">7</text>
-<circle cx="280" cy="870" r="6.5" fill="#d9dde3"/><circle cx="280" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="280" cy="840" r="6.5" fill="#d9dde3"/><circle cx="280" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="280" cy="810" r="6.5" fill="#d9dde3"/><circle cx="280" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="280" cy="780" r="6.5" fill="#d9dde3"/><circle cx="280" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="280" cy="750" r="6.5" fill="#d9dde3"/><circle cx="280" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="280" cy="720" r="6.5" fill="#d9dde3"/><circle cx="280" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="280" cy="690" r="6.5" fill="#d9dde3"/><circle cx="280" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -208,10 +176,6 @@
 <circle cx="280" cy="210" r="6.5" fill="#d9dde3"/><circle cx="280" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="280" cy="180" r="6.5" fill="#d9dde3"/><circle cx="280" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="280" y="157.0" class="ax" text-anchor="middle">8</text>
-<circle cx="310" cy="870" r="6.5" fill="#d9dde3"/><circle cx="310" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="310" cy="840" r="6.5" fill="#d9dde3"/><circle cx="310" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="310" cy="810" r="6.5" fill="#d9dde3"/><circle cx="310" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="310" cy="780" r="6.5" fill="#d9dde3"/><circle cx="310" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="310" cy="750" r="6.5" fill="#d9dde3"/><circle cx="310" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="310" cy="720" r="6.5" fill="#d9dde3"/><circle cx="310" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="310" cy="690" r="6.5" fill="#d9dde3"/><circle cx="310" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -233,10 +197,6 @@
 <circle cx="310" cy="210" r="6.5" fill="#d9dde3"/><circle cx="310" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="310" cy="180" r="6.5" fill="#d9dde3"/><circle cx="310" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="310" y="157.0" class="ax" text-anchor="middle">9</text>
-<circle cx="340" cy="870" r="6.5" fill="#d9dde3"/><circle cx="340" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="340" cy="840" r="6.5" fill="#d9dde3"/><circle cx="340" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="340" cy="810" r="6.5" fill="#d9dde3"/><circle cx="340" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="340" cy="780" r="6.5" fill="#d9dde3"/><circle cx="340" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="340" cy="750" r="6.5" fill="#d9dde3"/><circle cx="340" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="340" cy="720" r="6.5" fill="#d9dde3"/><circle cx="340" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="340" cy="690" r="6.5" fill="#d9dde3"/><circle cx="340" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -258,10 +218,6 @@
 <circle cx="340" cy="210" r="6.5" fill="#d9dde3"/><circle cx="340" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="340" cy="180" r="6.5" fill="#d9dde3"/><circle cx="340" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="340" y="157.0" class="ax" text-anchor="middle">10</text>
-<circle cx="370" cy="870" r="6.5" fill="#d9dde3"/><circle cx="370" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="370" cy="840" r="6.5" fill="#d9dde3"/><circle cx="370" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="370" cy="810" r="6.5" fill="#d9dde3"/><circle cx="370" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="370" cy="780" r="6.5" fill="#d9dde3"/><circle cx="370" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="370" cy="750" r="6.5" fill="#d9dde3"/><circle cx="370" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="370" cy="720" r="6.5" fill="#d9dde3"/><circle cx="370" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="370" cy="690" r="6.5" fill="#d9dde3"/><circle cx="370" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -283,10 +239,6 @@
 <circle cx="370" cy="210" r="6.5" fill="#d9dde3"/><circle cx="370" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="370" cy="180" r="6.5" fill="#d9dde3"/><circle cx="370" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="370" y="157.0" class="ax" text-anchor="middle">11</text>
-<circle cx="400" cy="870" r="6.5" fill="#d9dde3"/><circle cx="400" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="400" cy="840" r="6.5" fill="#d9dde3"/><circle cx="400" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="400" cy="810" r="6.5" fill="#d9dde3"/><circle cx="400" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="400" cy="780" r="6.5" fill="#d9dde3"/><circle cx="400" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="400" cy="750" r="6.5" fill="#d9dde3"/><circle cx="400" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="400" cy="720" r="6.5" fill="#d9dde3"/><circle cx="400" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="400" cy="690" r="6.5" fill="#d9dde3"/><circle cx="400" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -308,10 +260,6 @@
 <circle cx="400" cy="210" r="6.5" fill="#d9dde3"/><circle cx="400" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="400" cy="180" r="6.5" fill="#d9dde3"/><circle cx="400" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="400" y="157.0" class="ax" text-anchor="middle">12</text>
-<circle cx="430" cy="870" r="6.5" fill="#d9dde3"/><circle cx="430" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="430" cy="840" r="6.5" fill="#d9dde3"/><circle cx="430" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="430" cy="810" r="6.5" fill="#d9dde3"/><circle cx="430" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="430" cy="780" r="6.5" fill="#d9dde3"/><circle cx="430" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="430" cy="750" r="6.5" fill="#d9dde3"/><circle cx="430" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="430" cy="720" r="6.5" fill="#d9dde3"/><circle cx="430" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="430" cy="690" r="6.5" fill="#d9dde3"/><circle cx="430" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -333,10 +281,6 @@
 <circle cx="430" cy="210" r="6.5" fill="#d9dde3"/><circle cx="430" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="430" cy="180" r="6.5" fill="#d9dde3"/><circle cx="430" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="430" y="157.0" class="ax" text-anchor="middle">13</text>
-<circle cx="460" cy="870" r="6.5" fill="#d9dde3"/><circle cx="460" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="460" cy="840" r="6.5" fill="#d9dde3"/><circle cx="460" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="460" cy="810" r="6.5" fill="#d9dde3"/><circle cx="460" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="460" cy="780" r="6.5" fill="#d9dde3"/><circle cx="460" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="460" cy="750" r="6.5" fill="#d9dde3"/><circle cx="460" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="460" cy="720" r="6.5" fill="#d9dde3"/><circle cx="460" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="460" cy="690" r="6.5" fill="#d9dde3"/><circle cx="460" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -358,10 +302,6 @@
 <circle cx="460" cy="210" r="6.5" fill="#d9dde3"/><circle cx="460" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="460" cy="180" r="6.5" fill="#d9dde3"/><circle cx="460" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="460" y="157.0" class="ax" text-anchor="middle">14</text>
-<circle cx="490" cy="870" r="6.5" fill="#d9dde3"/><circle cx="490" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="490" cy="840" r="6.5" fill="#d9dde3"/><circle cx="490" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="490" cy="810" r="6.5" fill="#d9dde3"/><circle cx="490" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="490" cy="780" r="6.5" fill="#d9dde3"/><circle cx="490" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="490" cy="750" r="6.5" fill="#d9dde3"/><circle cx="490" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="490" cy="720" r="6.5" fill="#d9dde3"/><circle cx="490" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="490" cy="690" r="6.5" fill="#d9dde3"/><circle cx="490" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -383,10 +323,6 @@
 <circle cx="490" cy="210" r="6.5" fill="#d9dde3"/><circle cx="490" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="490" cy="180" r="6.5" fill="#d9dde3"/><circle cx="490" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="490" y="157.0" class="ax" text-anchor="middle">15</text>
-<circle cx="520" cy="870" r="6.5" fill="#d9dde3"/><circle cx="520" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="520" cy="840" r="6.5" fill="#d9dde3"/><circle cx="520" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="520" cy="810" r="6.5" fill="#d9dde3"/><circle cx="520" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="520" cy="780" r="6.5" fill="#d9dde3"/><circle cx="520" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="520" cy="750" r="6.5" fill="#d9dde3"/><circle cx="520" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="520" cy="720" r="6.5" fill="#d9dde3"/><circle cx="520" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="520" cy="690" r="6.5" fill="#d9dde3"/><circle cx="520" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -408,10 +344,6 @@
 <circle cx="520" cy="210" r="6.5" fill="#d9dde3"/><circle cx="520" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="520" cy="180" r="6.5" fill="#d9dde3"/><circle cx="520" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="520" y="157.0" class="ax" text-anchor="middle">16</text>
-<circle cx="550" cy="870" r="6.5" fill="#d9dde3"/><circle cx="550" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="550" cy="840" r="6.5" fill="#d9dde3"/><circle cx="550" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="550" cy="810" r="6.5" fill="#d9dde3"/><circle cx="550" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="550" cy="780" r="6.5" fill="#d9dde3"/><circle cx="550" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="550" cy="750" r="6.5" fill="#d9dde3"/><circle cx="550" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="550" cy="720" r="6.5" fill="#d9dde3"/><circle cx="550" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="550" cy="690" r="6.5" fill="#d9dde3"/><circle cx="550" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -433,10 +365,6 @@
 <circle cx="550" cy="210" r="6.5" fill="#d9dde3"/><circle cx="550" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="550" cy="180" r="6.5" fill="#d9dde3"/><circle cx="550" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="550" y="157.0" class="ax" text-anchor="middle">17</text>
-<circle cx="580" cy="870" r="6.5" fill="#d9dde3"/><circle cx="580" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="580" cy="840" r="6.5" fill="#d9dde3"/><circle cx="580" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="580" cy="810" r="6.5" fill="#d9dde3"/><circle cx="580" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="580" cy="780" r="6.5" fill="#d9dde3"/><circle cx="580" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="580" cy="750" r="6.5" fill="#d9dde3"/><circle cx="580" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="580" cy="720" r="6.5" fill="#d9dde3"/><circle cx="580" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="580" cy="690" r="6.5" fill="#d9dde3"/><circle cx="580" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -458,10 +386,6 @@
 <circle cx="580" cy="210" r="6.5" fill="#d9dde3"/><circle cx="580" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="580" cy="180" r="6.5" fill="#d9dde3"/><circle cx="580" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="580" y="157.0" class="ax" text-anchor="middle">18</text>
-<circle cx="610" cy="870" r="6.5" fill="#d9dde3"/><circle cx="610" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="610" cy="840" r="6.5" fill="#d9dde3"/><circle cx="610" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="610" cy="810" r="6.5" fill="#d9dde3"/><circle cx="610" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="610" cy="780" r="6.5" fill="#d9dde3"/><circle cx="610" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="610" cy="750" r="6.5" fill="#d9dde3"/><circle cx="610" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="610" cy="720" r="6.5" fill="#d9dde3"/><circle cx="610" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="610" cy="690" r="6.5" fill="#d9dde3"/><circle cx="610" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -483,10 +407,6 @@
 <circle cx="610" cy="210" r="6.5" fill="#d9dde3"/><circle cx="610" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="610" cy="180" r="6.5" fill="#d9dde3"/><circle cx="610" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="610" y="157.0" class="ax" text-anchor="middle">19</text>
-<circle cx="640" cy="870" r="6.5" fill="#d9dde3"/><circle cx="640" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="640" cy="840" r="6.5" fill="#d9dde3"/><circle cx="640" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="640" cy="810" r="6.5" fill="#d9dde3"/><circle cx="640" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="640" cy="780" r="6.5" fill="#d9dde3"/><circle cx="640" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="640" cy="750" r="6.5" fill="#d9dde3"/><circle cx="640" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="640" cy="720" r="6.5" fill="#d9dde3"/><circle cx="640" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="640" cy="690" r="6.5" fill="#d9dde3"/><circle cx="640" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -508,10 +428,6 @@
 <circle cx="640" cy="210" r="6.5" fill="#d9dde3"/><circle cx="640" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="640" cy="180" r="6.5" fill="#d9dde3"/><circle cx="640" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="640" y="157.0" class="ax" text-anchor="middle">20</text>
-<circle cx="670" cy="870" r="6.5" fill="#d9dde3"/><circle cx="670" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="670" cy="840" r="6.5" fill="#d9dde3"/><circle cx="670" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="670" cy="810" r="6.5" fill="#d9dde3"/><circle cx="670" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="670" cy="780" r="6.5" fill="#d9dde3"/><circle cx="670" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="670" cy="750" r="6.5" fill="#d9dde3"/><circle cx="670" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="670" cy="720" r="6.5" fill="#d9dde3"/><circle cx="670" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="670" cy="690" r="6.5" fill="#d9dde3"/><circle cx="670" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -533,10 +449,6 @@
 <circle cx="670" cy="210" r="6.5" fill="#d9dde3"/><circle cx="670" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="670" cy="180" r="6.5" fill="#d9dde3"/><circle cx="670" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="670" y="157.0" class="ax" text-anchor="middle">21</text>
-<circle cx="700" cy="870" r="6.5" fill="#d9dde3"/><circle cx="700" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="700" cy="840" r="6.5" fill="#d9dde3"/><circle cx="700" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="700" cy="810" r="6.5" fill="#d9dde3"/><circle cx="700" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="700" cy="780" r="6.5" fill="#d9dde3"/><circle cx="700" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="700" cy="750" r="6.5" fill="#d9dde3"/><circle cx="700" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="700" cy="720" r="6.5" fill="#d9dde3"/><circle cx="700" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="700" cy="690" r="6.5" fill="#d9dde3"/><circle cx="700" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -558,10 +470,6 @@
 <circle cx="700" cy="210" r="6.5" fill="#d9dde3"/><circle cx="700" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="700" cy="180" r="6.5" fill="#d9dde3"/><circle cx="700" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="700" y="157.0" class="ax" text-anchor="middle">22</text>
-<circle cx="730" cy="870" r="6.5" fill="#d9dde3"/><circle cx="730" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="730" cy="840" r="6.5" fill="#d9dde3"/><circle cx="730" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="730" cy="810" r="6.5" fill="#d9dde3"/><circle cx="730" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="730" cy="780" r="6.5" fill="#d9dde3"/><circle cx="730" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="730" cy="750" r="6.5" fill="#d9dde3"/><circle cx="730" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="730" cy="720" r="6.5" fill="#d9dde3"/><circle cx="730" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="730" cy="690" r="6.5" fill="#d9dde3"/><circle cx="730" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -583,10 +491,6 @@
 <circle cx="730" cy="210" r="6.5" fill="#d9dde3"/><circle cx="730" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="730" cy="180" r="6.5" fill="#d9dde3"/><circle cx="730" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="730" y="157.0" class="ax" text-anchor="middle">23</text>
-<circle cx="760" cy="870" r="6.5" fill="#d9dde3"/><circle cx="760" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="760" cy="840" r="6.5" fill="#d9dde3"/><circle cx="760" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="760" cy="810" r="6.5" fill="#d9dde3"/><circle cx="760" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="760" cy="780" r="6.5" fill="#d9dde3"/><circle cx="760" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="760" cy="750" r="6.5" fill="#d9dde3"/><circle cx="760" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="760" cy="720" r="6.5" fill="#d9dde3"/><circle cx="760" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="760" cy="690" r="6.5" fill="#d9dde3"/><circle cx="760" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -608,48 +512,47 @@
 <circle cx="760" cy="210" r="6.5" fill="#d9dde3"/><circle cx="760" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="760" cy="180" r="6.5" fill="#d9dde3"/><circle cx="760" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="760" y="157.0" class="ax" text-anchor="middle">24</text>
-<text x="39.0" y="874" class="ax" text-anchor="middle">1</text>
-<text x="39.0" y="844" class="ax" text-anchor="middle">2</text>
-<text x="39.0" y="814" class="ax" text-anchor="middle">3</text>
-<text x="39.0" y="784" class="ax" text-anchor="middle">4</text>
-<text x="39.0" y="754" class="ax" text-anchor="middle">5</text>
-<text x="39.0" y="724" class="ax" text-anchor="middle">6</text>
-<text x="39.0" y="694" class="ax" text-anchor="middle">7</text>
-<text x="39.0" y="664" class="ax" text-anchor="middle">8</text>
-<text x="39.0" y="634" class="ax" text-anchor="middle">9</text>
-<text x="39.0" y="604" class="ax" text-anchor="middle">10</text>
-<text x="39.0" y="574" class="ax" text-anchor="middle">11</text>
-<text x="39.0" y="544" class="ax" text-anchor="middle">12</text>
-<text x="39.0" y="514" class="ax" text-anchor="middle">13</text>
-<text x="39.0" y="484" class="ax" text-anchor="middle">14</text>
-<text x="39.0" y="454" class="ax" text-anchor="middle">15</text>
-<text x="39.0" y="424" class="ax" text-anchor="middle">16</text>
-<text x="39.0" y="394" class="ax" text-anchor="middle">17</text>
-<text x="39.0" y="364" class="ax" text-anchor="middle">18</text>
-<text x="39.0" y="334" class="ax" text-anchor="middle">19</text>
-<text x="39.0" y="304" class="ax" text-anchor="middle">20</text>
-<text x="39.0" y="274" class="ax" text-anchor="middle">21</text>
-<text x="39.0" y="244" class="ax" text-anchor="middle">22</text>
-<text x="39.0" y="214" class="ax" text-anchor="middle">23</text>
-<text x="39.0" y="184" class="ax" text-anchor="middle">24</text>
-<rect x="56.5" y="297.0" width="597.0" height="246.0" fill="rgba(20,20,20,0.6)" stroke="#000" stroke-width="1.5" rx="3"/>
-<rect x="31.0" y="369.0" width="93.0" height="102.0" fill="#e9ecef" stroke="#555"/>
-<text x="77.5" y="424.0" class="pl" text-anchor="middle" style="fill:#333">USB-C</text>
-<text x="325.0" y="391.0" class="pt" text-anchor="middle" style="fill:#fff">BlackPill</text>
-<text x="325.0" y="421.0" class="pl" text-anchor="middle" style="fill:#ddd">（朝上，USB-C 朝左）</text>
-<rect x="70.0" y="556.5" width="390.0" height="207.0" fill="rgba(20,20,20,0.6)" stroke="#000" stroke-width="1.5" rx="3"/>
-<rect x="49.0" y="609.0" width="87.0" height="102.0" fill="#e9ecef" stroke="#555"/>
-<text x="92.5" y="664.0" class="pl" text-anchor="middle" style="fill:#333">USB-C</text>
-<text x="265.0" y="646.0" class="pt" text-anchor="middle" style="fill:#fff">nice!nano</text>
-<text x="265.0" y="676.0" class="pl" text-anchor="middle" style="fill:#ddd">（朝上，USB-C 朝左）</text>
-<rect x="418.0" y="576.0" width="81.0" height="168.0" fill="rgba(220,40,40,0.25)" stroke="#d62828" stroke-dasharray="4 3"/>
-<text x="460.0" y="664.0" class="pl" text-anchor="middle" style="fill:#fff">天線</text>
-<rect x="520.0" y="577.5" width="120.0" height="135.0" fill="rgba(40,160,70,0.85)" stroke="#0b5d1e" rx="3"/>
-<text x="580.0" y="646.0" class="pl" text-anchor="middle" style="fill:#e8fbe8">DMC2038LVT</text>
-<rect x="568.0" y="742.5" width="54.0" height="15.0" fill="#e8d6a8" stroke="#7a5a10"/>
-<text x="595.0" y="754.0" class="pl" text-anchor="middle" style="fill:#5a3d00">R1</text>
-<rect x="196.0" y="286.5" width="354.0" height="235.5" fill="rgba(240,170,60,0.22)" stroke="#f0a030" stroke-width="2.5" stroke-dasharray="9 5"/>
-<text x="373.0" y="466.0" class="pl" text-anchor="middle" style="fill:#ffc56b">電池 30×25（疊在上面，往上凸出 3 mm）</text>
+<text x="39.0" y="754" class="ax" text-anchor="middle">1</text>
+<text x="39.0" y="724" class="ax" text-anchor="middle">2</text>
+<text x="39.0" y="694" class="ax" text-anchor="middle">3</text>
+<text x="39.0" y="664" class="ax" text-anchor="middle">4</text>
+<text x="39.0" y="634" class="ax" text-anchor="middle">5</text>
+<text x="39.0" y="604" class="ax" text-anchor="middle">6</text>
+<text x="39.0" y="574" class="ax" text-anchor="middle">7</text>
+<text x="39.0" y="544" class="ax" text-anchor="middle">8</text>
+<text x="39.0" y="514" class="ax" text-anchor="middle">9</text>
+<text x="39.0" y="484" class="ax" text-anchor="middle">10</text>
+<text x="39.0" y="454" class="ax" text-anchor="middle">11</text>
+<text x="39.0" y="424" class="ax" text-anchor="middle">12</text>
+<text x="39.0" y="394" class="ax" text-anchor="middle">13</text>
+<text x="39.0" y="364" class="ax" text-anchor="middle">14</text>
+<text x="39.0" y="334" class="ax" text-anchor="middle">15</text>
+<text x="39.0" y="304" class="ax" text-anchor="middle">16</text>
+<text x="39.0" y="274" class="ax" text-anchor="middle">17</text>
+<text x="39.0" y="244" class="ax" text-anchor="middle">18</text>
+<text x="39.0" y="214" class="ax" text-anchor="middle">19</text>
+<text x="39.0" y="184" class="ax" text-anchor="middle">20</text>
+<rect x="56.5" y="177.0" width="597.0" height="246.0" fill="rgba(20,20,20,0.6)" stroke="#000" stroke-width="1.5" rx="3"/>
+<rect x="31.0" y="249.0" width="93.0" height="102.0" fill="#e9ecef" stroke="#555"/>
+<text x="77.5" y="304.0" class="pl" text-anchor="middle" style="fill:#333">USB-C</text>
+<text x="190.0" y="271.0" class="pt" text-anchor="middle" style="fill:#fff">BlackPill</text>
+<text x="190.0" y="301.0" class="pl" text-anchor="middle" style="fill:#ddd">（朝上，USB-C 朝左）</text>
+<rect x="40.0" y="556.5" width="390.0" height="207.0" fill="rgba(20,20,20,0.6)" stroke="#000" stroke-width="1.5" rx="3"/>
+<rect x="19.0" y="609.0" width="87.0" height="102.0" fill="#e9ecef" stroke="#555"/>
+<text x="62.5" y="664.0" class="pl" text-anchor="middle" style="fill:#333">USB-C</text>
+<text x="235.0" y="646.0" class="pt" text-anchor="middle" style="fill:#fff">nice!nano</text>
+<text x="235.0" y="676.0" class="pl" text-anchor="middle" style="fill:#ddd">（朝上，USB-C 朝左）</text>
+<rect x="388.0" y="576.0" width="111.0" height="168.0" fill="rgba(220,40,40,0.25)" stroke="#d62828" stroke-dasharray="4 3"/>
+<text x="445.0" y="664.0" class="pl" text-anchor="middle" style="fill:#fff">天線</text>
+<rect x="520.0" y="547.5" width="120.0" height="135.0" fill="rgba(40,160,70,0.85)" stroke="#0b5d1e" rx="3"/>
+<text x="517.0" y="562.0" class="pl" text-anchor="end" style="fill:#e8fbe8">U3 DMC2038LVT</text>
+<rect x="568.0" y="712.5" width="54.0" height="15.0" fill="#e8d6a8" stroke="#7a5a10"/>
+<text x="595.0" y="724.0" class="pl" text-anchor="middle" style="fill:#5a3d00">R1</text>
+<rect x="298.0" y="156.0" width="354.0" height="295.5" fill="rgba(240,170,60,0.22)" stroke="#f0a030" stroke-width="2.5" stroke-dasharray="9 5"/>
+<text x="475.0" y="316.0" class="pl" text-anchor="middle" style="fill:#ffc56b">電池 30×25×5（疊在 BlackPill 右段）</text>
+<text x="460.0" y="487.0" class="pl" text-anchor="middle" style="fill:#9fd3b0">兩板中間空 5 排（第 8–12 排）</text>
+<rect x="65" y="745" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="65" y="565" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
 <rect x="95" y="745" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
 <rect x="95" y="565" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
 <rect x="125" y="745" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
@@ -672,84 +575,128 @@
 <rect x="365" y="565" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
 <rect x="395" y="745" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
 <rect x="395" y="565" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="425" y="745" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="425" y="565" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="65" y="505" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="65" y="325" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="95" y="505" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="95" y="325" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="125" y="505" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="125" y="325" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="155" y="505" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="155" y="325" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="185" y="505" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="185" y="325" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="215" y="505" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="215" y="325" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="245" y="505" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="245" y="325" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="275" y="505" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="275" y="325" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="305" y="505" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="305" y="325" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="335" y="505" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="335" y="325" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="365" y="505" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="365" y="325" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="395" y="505" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="395" y="325" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="425" y="505" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="425" y="325" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="455" y="505" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="455" y="325" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="485" y="505" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="485" y="325" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="515" y="505" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="515" y="325" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="545" y="505" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="545" y="325" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="575" y="505" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="575" y="325" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="605" y="505" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="605" y="325" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="635" y="505" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="635" y="325" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
-<rect x="545" y="685" width="10" height="10" fill="#f2d16b" stroke="#7a5a10"/>
-<rect x="545" y="595" width="10" height="10" fill="#f2d16b" stroke="#7a5a10"/>
-<rect x="575" y="685" width="10" height="10" fill="#f2d16b" stroke="#7a5a10"/>
-<rect x="575" y="595" width="10" height="10" fill="#f2d16b" stroke="#7a5a10"/>
-<rect x="605" y="685" width="10" height="10" fill="#f2d16b" stroke="#7a5a10"/>
-<rect x="605" y="595" width="10" height="10" fill="#f2d16b" stroke="#7a5a10"/>
-<text x="550.0" y="591.0" class="pl" text-anchor="middle" style="fill:#fff">G1</text>
-<text x="580.0" y="591.0" class="pl" text-anchor="middle" style="fill:#fff">S2</text>
-<text x="610.0" y="591.0" class="pl" text-anchor="middle" style="fill:#fff">G2</text>
-<text x="550.0" y="709.0" class="pl" text-anchor="middle" style="fill:#fff">D1</text>
-<text x="580.0" y="709.0" class="pl" text-anchor="middle" style="fill:#fff">S1</text>
-<text x="610.0" y="709.0" class="pl" text-anchor="middle" style="fill:#fff">D2</text>
-<text x="130.0" y="769.0" class="pl" text-anchor="middle" style="fill:#ffe9a8">P0.08</text>
-<text x="430.0" y="769.0" class="pl" text-anchor="middle" style="fill:#ffe9a8">P1.06</text>
-<text x="100.0" y="561.0" class="pl" text-anchor="middle" style="fill:#ffe9a8">RAW</text>
-<text x="130.0" y="561.0" class="pl" text-anchor="middle" style="fill:#ffe9a8">GND</text>
-<text x="70.0" y="529.0" class="pl" text-anchor="middle" style="fill:#ffe9a8">B12</text>
-<text x="220.0" y="529.0" class="pl" text-anchor="middle" style="fill:#ffe9a8">PA9</text>
-<text x="580.0" y="529.0" class="pl" text-anchor="middle" style="fill:#ffe9a8">5V</text>
-<text x="610.0" y="529.0" class="pl" text-anchor="middle" style="fill:#ffe9a8">G</text>
-<text x="640.0" y="529.0" class="pl" text-anchor="middle" style="fill:#ffe9a8">3.3</text>
-<text x="70.0" y="321.0" class="pl" text-anchor="middle" style="fill:#ffe9a8">5V</text>
-<text x="100.0" y="321.0" class="pl" text-anchor="middle" style="fill:#ffe9a8">G</text>
-<text x="130.0" y="321.0" class="pl" text-anchor="middle" style="fill:#ffe9a8">3.3</text>
-<text x="640.0" y="321.0" class="pl" text-anchor="middle" style="fill:#ffe9a8">VB</text>
-<path d="M550.0,600.0 L535.0,585.0 L535.0,702.0 L625.0,702.0 L610.0,690.0" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M550.0,600.0 L535.0,585.0 L535.0,702.0 L625.0,702.0 L610.0,690.0" stroke="#d62828" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8 5"/>
-<circle cx="550.0" cy="600.0" r="5" fill="#d62828" stroke="#fff" stroke-width="1.5"/>
-<circle cx="610.0" cy="690.0" r="5" fill="#d62828" stroke="#fff" stroke-width="1.5"/>
-<text x="517.0" y="646.0" class="pl" text-anchor="end" style="fill:#fff">W8</text>
-<text x="880" y="108" class="h2">② 背面（翻過來看，左右相反）</text><text x="880" y="130" class="sub">所有接線都在這面焊；黃色方塊＝要焊的腳</text>
-<rect x="898.9" y="158.9" width="732.3" height="732.3" fill="#1f5a3a" rx="6"/>
-<circle cx="1610" cy="870" r="6.5" fill="#d9dde3"/><circle cx="1610" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="1610" cy="840" r="6.5" fill="#d9dde3"/><circle cx="1610" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="1610" cy="810" r="6.5" fill="#d9dde3"/><circle cx="1610" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="1610" cy="780" r="6.5" fill="#d9dde3"/><circle cx="1610" cy="780" r="2.8" fill="#1f5a3a"/>
+<rect x="65" y="385" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="65" y="205" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="95" y="385" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="95" y="205" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="125" y="385" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="125" y="205" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="155" y="385" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="155" y="205" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="185" y="385" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="185" y="205" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="215" y="385" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="215" y="205" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="245" y="385" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="245" y="205" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="275" y="385" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="275" y="205" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="305" y="385" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="305" y="205" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="335" y="385" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="335" y="205" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="365" y="385" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="365" y="205" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="395" y="385" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="395" y="205" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="425" y="385" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="425" y="205" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="455" y="385" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="455" y="205" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="485" y="385" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="485" y="205" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="515" y="385" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="515" y="205" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="545" y="385" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="545" y="205" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="575" y="385" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="575" y="205" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="605" y="385" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="605" y="205" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="635" y="385" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="635" y="205" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
+<rect x="545" y="655" width="10" height="10" fill="#f2d16b" stroke="#7a5a10"/>
+<rect x="545" y="565" width="10" height="10" fill="#f2d16b" stroke="#7a5a10"/>
+<rect x="575" y="655" width="10" height="10" fill="#f2d16b" stroke="#7a5a10"/>
+<rect x="575" y="565" width="10" height="10" fill="#f2d16b" stroke="#7a5a10"/>
+<rect x="605" y="655" width="10" height="10" fill="#f2d16b" stroke="#7a5a10"/>
+<rect x="605" y="565" width="10" height="10" fill="#f2d16b" stroke="#7a5a10"/>
+<text x="550.0" y="561.0" class="pl" text-anchor="middle" style="fill:#fff">G2</text>
+<text x="580.0" y="561.0" class="pl" text-anchor="middle" style="fill:#fff">S2</text>
+<text x="610.0" y="561.0" class="pl" text-anchor="middle" style="fill:#fff">G1</text>
+<text x="550.0" y="679.0" class="pl" text-anchor="middle" style="fill:#fff">D2</text>
+<text x="580.0" y="679.0" class="pl" text-anchor="middle" style="fill:#fff">S1</text>
+<text x="610.0" y="679.0" class="pl" text-anchor="middle" style="fill:#fff">D1</text>
+<text x="100.0" y="769.0" class="pl" text-anchor="middle" style="fill:#ffe9a8">P0.08</text>
+<text x="400.0" y="769.0" class="pl" text-anchor="middle" style="fill:#ffe9a8">P1.06</text>
+<text x="70.0" y="561.0" class="pl" text-anchor="middle" style="fill:#ffe9a8">RAW</text>
+<text x="100.0" y="561.0" class="pl" text-anchor="middle" style="fill:#ffe9a8">GND</text>
+<text x="70.0" y="409.0" class="pl" text-anchor="middle" style="fill:#ffe9a8">B12</text>
+<text x="220.0" y="409.0" class="pl" text-anchor="middle" style="fill:#ffe9a8">PA9</text>
+<text x="580.0" y="409.0" class="pl" text-anchor="middle" style="fill:#ffe9a8">5V</text>
+<text x="610.0" y="409.0" class="pl" text-anchor="middle" style="fill:#ffe9a8">G</text>
+<text x="640.0" y="409.0" class="pl" text-anchor="middle" style="fill:#ffe9a8">3.3</text>
+<text x="70.0" y="201.0" class="pl" text-anchor="middle" style="fill:#ffe9a8">5V</text>
+<text x="100.0" y="201.0" class="pl" text-anchor="middle" style="fill:#ffe9a8">G</text>
+<text x="130.0" y="201.0" class="pl" text-anchor="middle" style="fill:#ffe9a8">3.3</text>
+<text x="640.0" y="201.0" class="pl" text-anchor="middle" style="fill:#ffe9a8">VB</text>
+<path d="M298.0,429.0 L70.0,429.0 L70.0,570.0" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M298.0,429.0 L70.0,429.0 L70.0,570.0" stroke="#d62828" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="298.0" cy="429.0" r="5" fill="#d62828" stroke="#fff" stroke-width="1.5"/>
+<circle cx="70.0" cy="570.0" r="5" fill="#d62828" stroke="#fff" stroke-width="1.5"/>
+<path d="M298.0,444.0 L100.0,444.0 L100.0,570.0" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M298.0,444.0 L100.0,444.0 L100.0,570.0" stroke="#1b1b1b" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="298.0" cy="444.0" r="5" fill="#1b1b1b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="100.0" cy="570.0" r="5" fill="#1b1b1b" stroke="#fff" stroke-width="1.5"/>
+<path d="M220.0,390.0 L220.0,411.0 L175.0,411.0 L175.0,735.0 L115.0,735.0 L100.0,750.0" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M220.0,390.0 L220.0,411.0 L175.0,411.0 L175.0,735.0 L115.0,735.0 L100.0,750.0" stroke="#e3b505" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="220.0" cy="390.0" r="5" fill="#e3b505" stroke="#fff" stroke-width="1.5"/>
+<circle cx="100.0" cy="750.0" r="5" fill="#e3b505" stroke="#fff" stroke-width="1.5"/>
+<path d="M100.0,570.0 L118.0,549.0 L139.0,549.0 L139.0,228.0 L112.0,228.0 L100.0,210.0" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M100.0,570.0 L118.0,549.0 L139.0,549.0 L139.0,228.0 L112.0,228.0 L100.0,210.0" stroke="#1b1b1b" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="100.0" cy="570.0" r="5" fill="#1b1b1b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="100.0" cy="210.0" r="5" fill="#1b1b1b" stroke="#fff" stroke-width="1.5"/>
+<path d="M580.0,390.0 L565.0,408.0 L550.0,444.0 L550.0,570.0" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M580.0,390.0 L565.0,408.0 L550.0,444.0 L550.0,570.0" stroke="#d62828" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="580.0" cy="390.0" r="5" fill="#d62828" stroke="#fff" stroke-width="1.5"/>
+<circle cx="550.0" cy="570.0" r="5" fill="#d62828" stroke="#fff" stroke-width="1.5"/>
+<path d="M610.0,390.0 L595.0,408.0 L580.0,444.0 L580.0,570.0" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M610.0,390.0 L595.0,408.0 L580.0,444.0 L580.0,570.0" stroke="#1b1b1b" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="610.0" cy="390.0" r="5" fill="#1b1b1b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="580.0" cy="570.0" r="5" fill="#1b1b1b" stroke="#fff" stroke-width="1.5"/>
+<path d="M580.0,570.0 L580.0,660.0" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M580.0,570.0 L580.0,660.0" stroke="#1b1b1b" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="580.0" cy="570.0" r="5" fill="#1b1b1b" stroke="#fff" stroke-width="1.5"/>
+<circle cx="580.0" cy="660.0" r="5" fill="#1b1b1b" stroke="#fff" stroke-width="1.5"/>
+<path d="M610.0,570.0 L628.0,588.0 L628.0,621.0 L535.0,621.0 L535.0,645.0 L550.0,660.0" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M610.0,570.0 L628.0,588.0 L628.0,621.0 L535.0,621.0 L535.0,645.0 L550.0,660.0" stroke="#d62828" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="610.0" cy="570.0" r="5" fill="#d62828" stroke="#fff" stroke-width="1.5"/>
+<circle cx="550.0" cy="660.0" r="5" fill="#d62828" stroke="#fff" stroke-width="1.5"/>
+<path d="M550.0,660.0 L550.0,720.0" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M550.0,660.0 L550.0,720.0" stroke="#d62828" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="550.0" cy="660.0" r="5" fill="#d62828" stroke="#fff" stroke-width="1.5"/>
+<circle cx="550.0" cy="720.0" r="5" fill="#d62828" stroke="#fff" stroke-width="1.5"/>
+<path d="M610.0,660.0 L640.0,690.0 L640.0,720.0" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M610.0,660.0 L640.0,690.0 L640.0,720.0" stroke="#f07d14" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="610.0" cy="660.0" r="5" fill="#f07d14" stroke="#fff" stroke-width="1.5"/>
+<circle cx="640.0" cy="720.0" r="5" fill="#f07d14" stroke="#fff" stroke-width="1.5"/>
+<path d="M640.0,720.0 L625.0,735.0 L415.0,735.0 L400.0,750.0" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M640.0,720.0 L625.0,735.0 L415.0,735.0 L400.0,750.0" stroke="#f07d14" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="640.0" cy="720.0" r="5" fill="#f07d14" stroke="#fff" stroke-width="1.5"/>
+<circle cx="400.0" cy="750.0" r="5" fill="#f07d14" stroke="#fff" stroke-width="1.5"/>
+<text x="238.0" y="425.5" class="pl" text-anchor="middle" style="fill:#fff">W1 電池＋</text>
+<text x="238.0" y="461.5" class="pl" text-anchor="middle" style="fill:#fff">W2 電池－</text>
+<text x="196.0" y="514.0" class="pl" text-anchor="middle" style="fill:#fff">W3</text>
+<text x="154.0" y="346.0" class="pl" text-anchor="middle" style="fill:#fff">W4</text>
+<text x="532.0" y="484.0" class="pl" text-anchor="middle" style="fill:#fff">W5</text>
+<text x="598.0" y="484.0" class="pl" text-anchor="middle" style="fill:#fff">W6</text>
+<text x="596.5" y="598.0" class="pl" text-anchor="middle" style="fill:#fff">W7</text>
+<text x="517.0" y="616.0" class="pl" text-anchor="middle" style="fill:#fff">W8</text>
+<text x="532.0" y="694.0" class="pl" text-anchor="middle" style="fill:#fff">W9</text>
+<text x="661.0" y="688.0" class="pl" text-anchor="middle" style="fill:#fff">W10</text>
+<text x="505.0" y="725.5" class="pl" text-anchor="middle" style="fill:#fff">W11</text>
+<text x="880" y="108" class="h2">② 背面（翻過來看，左右相反）</text><text x="880" y="130" class="sub">背面不走線：只有零件腳的焊點（黃色方塊）</text>
+<rect x="904.8" y="152.0" width="720.5" height="626.0" fill="#1f5a3a" rx="6"/>
 <circle cx="1610" cy="750" r="6.5" fill="#d9dde3"/><circle cx="1610" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="1610" cy="720" r="6.5" fill="#d9dde3"/><circle cx="1610" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="1610" cy="690" r="6.5" fill="#d9dde3"/><circle cx="1610" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -771,10 +718,6 @@
 <circle cx="1610" cy="210" r="6.5" fill="#d9dde3"/><circle cx="1610" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="1610" cy="180" r="6.5" fill="#d9dde3"/><circle cx="1610" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="1610" y="157.0" class="ax" text-anchor="middle">1</text>
-<circle cx="1580" cy="870" r="6.5" fill="#d9dde3"/><circle cx="1580" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="1580" cy="840" r="6.5" fill="#d9dde3"/><circle cx="1580" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="1580" cy="810" r="6.5" fill="#d9dde3"/><circle cx="1580" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="1580" cy="780" r="6.5" fill="#d9dde3"/><circle cx="1580" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="1580" cy="750" r="6.5" fill="#d9dde3"/><circle cx="1580" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="1580" cy="720" r="6.5" fill="#d9dde3"/><circle cx="1580" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="1580" cy="690" r="6.5" fill="#d9dde3"/><circle cx="1580" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -796,10 +739,6 @@
 <circle cx="1580" cy="210" r="6.5" fill="#d9dde3"/><circle cx="1580" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="1580" cy="180" r="6.5" fill="#d9dde3"/><circle cx="1580" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="1580" y="157.0" class="ax" text-anchor="middle">2</text>
-<circle cx="1550" cy="870" r="6.5" fill="#d9dde3"/><circle cx="1550" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="1550" cy="840" r="6.5" fill="#d9dde3"/><circle cx="1550" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="1550" cy="810" r="6.5" fill="#d9dde3"/><circle cx="1550" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="1550" cy="780" r="6.5" fill="#d9dde3"/><circle cx="1550" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="1550" cy="750" r="6.5" fill="#d9dde3"/><circle cx="1550" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="1550" cy="720" r="6.5" fill="#d9dde3"/><circle cx="1550" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="1550" cy="690" r="6.5" fill="#d9dde3"/><circle cx="1550" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -821,10 +760,6 @@
 <circle cx="1550" cy="210" r="6.5" fill="#d9dde3"/><circle cx="1550" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="1550" cy="180" r="6.5" fill="#d9dde3"/><circle cx="1550" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="1550" y="157.0" class="ax" text-anchor="middle">3</text>
-<circle cx="1520" cy="870" r="6.5" fill="#d9dde3"/><circle cx="1520" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="1520" cy="840" r="6.5" fill="#d9dde3"/><circle cx="1520" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="1520" cy="810" r="6.5" fill="#d9dde3"/><circle cx="1520" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="1520" cy="780" r="6.5" fill="#d9dde3"/><circle cx="1520" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="1520" cy="750" r="6.5" fill="#d9dde3"/><circle cx="1520" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="1520" cy="720" r="6.5" fill="#d9dde3"/><circle cx="1520" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="1520" cy="690" r="6.5" fill="#d9dde3"/><circle cx="1520" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -846,10 +781,6 @@
 <circle cx="1520" cy="210" r="6.5" fill="#d9dde3"/><circle cx="1520" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="1520" cy="180" r="6.5" fill="#d9dde3"/><circle cx="1520" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="1520" y="157.0" class="ax" text-anchor="middle">4</text>
-<circle cx="1490" cy="870" r="6.5" fill="#d9dde3"/><circle cx="1490" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="1490" cy="840" r="6.5" fill="#d9dde3"/><circle cx="1490" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="1490" cy="810" r="6.5" fill="#d9dde3"/><circle cx="1490" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="1490" cy="780" r="6.5" fill="#d9dde3"/><circle cx="1490" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="1490" cy="750" r="6.5" fill="#d9dde3"/><circle cx="1490" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="1490" cy="720" r="6.5" fill="#d9dde3"/><circle cx="1490" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="1490" cy="690" r="6.5" fill="#d9dde3"/><circle cx="1490" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -871,10 +802,6 @@
 <circle cx="1490" cy="210" r="6.5" fill="#d9dde3"/><circle cx="1490" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="1490" cy="180" r="6.5" fill="#d9dde3"/><circle cx="1490" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="1490" y="157.0" class="ax" text-anchor="middle">5</text>
-<circle cx="1460" cy="870" r="6.5" fill="#d9dde3"/><circle cx="1460" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="1460" cy="840" r="6.5" fill="#d9dde3"/><circle cx="1460" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="1460" cy="810" r="6.5" fill="#d9dde3"/><circle cx="1460" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="1460" cy="780" r="6.5" fill="#d9dde3"/><circle cx="1460" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="1460" cy="750" r="6.5" fill="#d9dde3"/><circle cx="1460" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="1460" cy="720" r="6.5" fill="#d9dde3"/><circle cx="1460" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="1460" cy="690" r="6.5" fill="#d9dde3"/><circle cx="1460" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -896,10 +823,6 @@
 <circle cx="1460" cy="210" r="6.5" fill="#d9dde3"/><circle cx="1460" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="1460" cy="180" r="6.5" fill="#d9dde3"/><circle cx="1460" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="1460" y="157.0" class="ax" text-anchor="middle">6</text>
-<circle cx="1430" cy="870" r="6.5" fill="#d9dde3"/><circle cx="1430" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="1430" cy="840" r="6.5" fill="#d9dde3"/><circle cx="1430" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="1430" cy="810" r="6.5" fill="#d9dde3"/><circle cx="1430" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="1430" cy="780" r="6.5" fill="#d9dde3"/><circle cx="1430" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="1430" cy="750" r="6.5" fill="#d9dde3"/><circle cx="1430" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="1430" cy="720" r="6.5" fill="#d9dde3"/><circle cx="1430" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="1430" cy="690" r="6.5" fill="#d9dde3"/><circle cx="1430" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -921,10 +844,6 @@
 <circle cx="1430" cy="210" r="6.5" fill="#d9dde3"/><circle cx="1430" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="1430" cy="180" r="6.5" fill="#d9dde3"/><circle cx="1430" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="1430" y="157.0" class="ax" text-anchor="middle">7</text>
-<circle cx="1400" cy="870" r="6.5" fill="#d9dde3"/><circle cx="1400" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="1400" cy="840" r="6.5" fill="#d9dde3"/><circle cx="1400" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="1400" cy="810" r="6.5" fill="#d9dde3"/><circle cx="1400" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="1400" cy="780" r="6.5" fill="#d9dde3"/><circle cx="1400" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="1400" cy="750" r="6.5" fill="#d9dde3"/><circle cx="1400" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="1400" cy="720" r="6.5" fill="#d9dde3"/><circle cx="1400" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="1400" cy="690" r="6.5" fill="#d9dde3"/><circle cx="1400" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -946,10 +865,6 @@
 <circle cx="1400" cy="210" r="6.5" fill="#d9dde3"/><circle cx="1400" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="1400" cy="180" r="6.5" fill="#d9dde3"/><circle cx="1400" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="1400" y="157.0" class="ax" text-anchor="middle">8</text>
-<circle cx="1370" cy="870" r="6.5" fill="#d9dde3"/><circle cx="1370" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="1370" cy="840" r="6.5" fill="#d9dde3"/><circle cx="1370" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="1370" cy="810" r="6.5" fill="#d9dde3"/><circle cx="1370" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="1370" cy="780" r="6.5" fill="#d9dde3"/><circle cx="1370" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="1370" cy="750" r="6.5" fill="#d9dde3"/><circle cx="1370" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="1370" cy="720" r="6.5" fill="#d9dde3"/><circle cx="1370" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="1370" cy="690" r="6.5" fill="#d9dde3"/><circle cx="1370" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -971,10 +886,6 @@
 <circle cx="1370" cy="210" r="6.5" fill="#d9dde3"/><circle cx="1370" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="1370" cy="180" r="6.5" fill="#d9dde3"/><circle cx="1370" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="1370" y="157.0" class="ax" text-anchor="middle">9</text>
-<circle cx="1340" cy="870" r="6.5" fill="#d9dde3"/><circle cx="1340" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="1340" cy="840" r="6.5" fill="#d9dde3"/><circle cx="1340" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="1340" cy="810" r="6.5" fill="#d9dde3"/><circle cx="1340" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="1340" cy="780" r="6.5" fill="#d9dde3"/><circle cx="1340" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="1340" cy="750" r="6.5" fill="#d9dde3"/><circle cx="1340" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="1340" cy="720" r="6.5" fill="#d9dde3"/><circle cx="1340" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="1340" cy="690" r="6.5" fill="#d9dde3"/><circle cx="1340" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -996,10 +907,6 @@
 <circle cx="1340" cy="210" r="6.5" fill="#d9dde3"/><circle cx="1340" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="1340" cy="180" r="6.5" fill="#d9dde3"/><circle cx="1340" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="1340" y="157.0" class="ax" text-anchor="middle">10</text>
-<circle cx="1310" cy="870" r="6.5" fill="#d9dde3"/><circle cx="1310" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="1310" cy="840" r="6.5" fill="#d9dde3"/><circle cx="1310" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="1310" cy="810" r="6.5" fill="#d9dde3"/><circle cx="1310" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="1310" cy="780" r="6.5" fill="#d9dde3"/><circle cx="1310" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="1310" cy="750" r="6.5" fill="#d9dde3"/><circle cx="1310" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="1310" cy="720" r="6.5" fill="#d9dde3"/><circle cx="1310" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="1310" cy="690" r="6.5" fill="#d9dde3"/><circle cx="1310" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -1021,10 +928,6 @@
 <circle cx="1310" cy="210" r="6.5" fill="#d9dde3"/><circle cx="1310" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="1310" cy="180" r="6.5" fill="#d9dde3"/><circle cx="1310" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="1310" y="157.0" class="ax" text-anchor="middle">11</text>
-<circle cx="1280" cy="870" r="6.5" fill="#d9dde3"/><circle cx="1280" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="1280" cy="840" r="6.5" fill="#d9dde3"/><circle cx="1280" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="1280" cy="810" r="6.5" fill="#d9dde3"/><circle cx="1280" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="1280" cy="780" r="6.5" fill="#d9dde3"/><circle cx="1280" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="1280" cy="750" r="6.5" fill="#d9dde3"/><circle cx="1280" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="1280" cy="720" r="6.5" fill="#d9dde3"/><circle cx="1280" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="1280" cy="690" r="6.5" fill="#d9dde3"/><circle cx="1280" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -1046,10 +949,6 @@
 <circle cx="1280" cy="210" r="6.5" fill="#d9dde3"/><circle cx="1280" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="1280" cy="180" r="6.5" fill="#d9dde3"/><circle cx="1280" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="1280" y="157.0" class="ax" text-anchor="middle">12</text>
-<circle cx="1250" cy="870" r="6.5" fill="#d9dde3"/><circle cx="1250" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="1250" cy="840" r="6.5" fill="#d9dde3"/><circle cx="1250" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="1250" cy="810" r="6.5" fill="#d9dde3"/><circle cx="1250" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="1250" cy="780" r="6.5" fill="#d9dde3"/><circle cx="1250" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="1250" cy="750" r="6.5" fill="#d9dde3"/><circle cx="1250" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="1250" cy="720" r="6.5" fill="#d9dde3"/><circle cx="1250" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="1250" cy="690" r="6.5" fill="#d9dde3"/><circle cx="1250" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -1071,10 +970,6 @@
 <circle cx="1250" cy="210" r="6.5" fill="#d9dde3"/><circle cx="1250" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="1250" cy="180" r="6.5" fill="#d9dde3"/><circle cx="1250" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="1250" y="157.0" class="ax" text-anchor="middle">13</text>
-<circle cx="1220" cy="870" r="6.5" fill="#d9dde3"/><circle cx="1220" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="1220" cy="840" r="6.5" fill="#d9dde3"/><circle cx="1220" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="1220" cy="810" r="6.5" fill="#d9dde3"/><circle cx="1220" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="1220" cy="780" r="6.5" fill="#d9dde3"/><circle cx="1220" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="1220" cy="750" r="6.5" fill="#d9dde3"/><circle cx="1220" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="1220" cy="720" r="6.5" fill="#d9dde3"/><circle cx="1220" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="1220" cy="690" r="6.5" fill="#d9dde3"/><circle cx="1220" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -1096,10 +991,6 @@
 <circle cx="1220" cy="210" r="6.5" fill="#d9dde3"/><circle cx="1220" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="1220" cy="180" r="6.5" fill="#d9dde3"/><circle cx="1220" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="1220" y="157.0" class="ax" text-anchor="middle">14</text>
-<circle cx="1190" cy="870" r="6.5" fill="#d9dde3"/><circle cx="1190" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="1190" cy="840" r="6.5" fill="#d9dde3"/><circle cx="1190" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="1190" cy="810" r="6.5" fill="#d9dde3"/><circle cx="1190" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="1190" cy="780" r="6.5" fill="#d9dde3"/><circle cx="1190" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="1190" cy="750" r="6.5" fill="#d9dde3"/><circle cx="1190" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="1190" cy="720" r="6.5" fill="#d9dde3"/><circle cx="1190" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="1190" cy="690" r="6.5" fill="#d9dde3"/><circle cx="1190" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -1121,10 +1012,6 @@
 <circle cx="1190" cy="210" r="6.5" fill="#d9dde3"/><circle cx="1190" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="1190" cy="180" r="6.5" fill="#d9dde3"/><circle cx="1190" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="1190" y="157.0" class="ax" text-anchor="middle">15</text>
-<circle cx="1160" cy="870" r="6.5" fill="#d9dde3"/><circle cx="1160" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="1160" cy="840" r="6.5" fill="#d9dde3"/><circle cx="1160" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="1160" cy="810" r="6.5" fill="#d9dde3"/><circle cx="1160" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="1160" cy="780" r="6.5" fill="#d9dde3"/><circle cx="1160" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="1160" cy="750" r="6.5" fill="#d9dde3"/><circle cx="1160" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="1160" cy="720" r="6.5" fill="#d9dde3"/><circle cx="1160" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="1160" cy="690" r="6.5" fill="#d9dde3"/><circle cx="1160" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -1146,10 +1033,6 @@
 <circle cx="1160" cy="210" r="6.5" fill="#d9dde3"/><circle cx="1160" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="1160" cy="180" r="6.5" fill="#d9dde3"/><circle cx="1160" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="1160" y="157.0" class="ax" text-anchor="middle">16</text>
-<circle cx="1130" cy="870" r="6.5" fill="#d9dde3"/><circle cx="1130" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="1130" cy="840" r="6.5" fill="#d9dde3"/><circle cx="1130" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="1130" cy="810" r="6.5" fill="#d9dde3"/><circle cx="1130" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="1130" cy="780" r="6.5" fill="#d9dde3"/><circle cx="1130" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="1130" cy="750" r="6.5" fill="#d9dde3"/><circle cx="1130" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="1130" cy="720" r="6.5" fill="#d9dde3"/><circle cx="1130" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="1130" cy="690" r="6.5" fill="#d9dde3"/><circle cx="1130" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -1171,10 +1054,6 @@
 <circle cx="1130" cy="210" r="6.5" fill="#d9dde3"/><circle cx="1130" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="1130" cy="180" r="6.5" fill="#d9dde3"/><circle cx="1130" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="1130" y="157.0" class="ax" text-anchor="middle">17</text>
-<circle cx="1100" cy="870" r="6.5" fill="#d9dde3"/><circle cx="1100" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="1100" cy="840" r="6.5" fill="#d9dde3"/><circle cx="1100" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="1100" cy="810" r="6.5" fill="#d9dde3"/><circle cx="1100" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="1100" cy="780" r="6.5" fill="#d9dde3"/><circle cx="1100" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="1100" cy="750" r="6.5" fill="#d9dde3"/><circle cx="1100" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="1100" cy="720" r="6.5" fill="#d9dde3"/><circle cx="1100" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="1100" cy="690" r="6.5" fill="#d9dde3"/><circle cx="1100" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -1196,10 +1075,6 @@
 <circle cx="1100" cy="210" r="6.5" fill="#d9dde3"/><circle cx="1100" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="1100" cy="180" r="6.5" fill="#d9dde3"/><circle cx="1100" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="1100" y="157.0" class="ax" text-anchor="middle">18</text>
-<circle cx="1070" cy="870" r="6.5" fill="#d9dde3"/><circle cx="1070" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="1070" cy="840" r="6.5" fill="#d9dde3"/><circle cx="1070" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="1070" cy="810" r="6.5" fill="#d9dde3"/><circle cx="1070" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="1070" cy="780" r="6.5" fill="#d9dde3"/><circle cx="1070" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="1070" cy="750" r="6.5" fill="#d9dde3"/><circle cx="1070" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="1070" cy="720" r="6.5" fill="#d9dde3"/><circle cx="1070" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="1070" cy="690" r="6.5" fill="#d9dde3"/><circle cx="1070" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -1221,10 +1096,6 @@
 <circle cx="1070" cy="210" r="6.5" fill="#d9dde3"/><circle cx="1070" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="1070" cy="180" r="6.5" fill="#d9dde3"/><circle cx="1070" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="1070" y="157.0" class="ax" text-anchor="middle">19</text>
-<circle cx="1040" cy="870" r="6.5" fill="#d9dde3"/><circle cx="1040" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="1040" cy="840" r="6.5" fill="#d9dde3"/><circle cx="1040" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="1040" cy="810" r="6.5" fill="#d9dde3"/><circle cx="1040" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="1040" cy="780" r="6.5" fill="#d9dde3"/><circle cx="1040" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="1040" cy="750" r="6.5" fill="#d9dde3"/><circle cx="1040" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="1040" cy="720" r="6.5" fill="#d9dde3"/><circle cx="1040" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="1040" cy="690" r="6.5" fill="#d9dde3"/><circle cx="1040" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -1246,10 +1117,6 @@
 <circle cx="1040" cy="210" r="6.5" fill="#d9dde3"/><circle cx="1040" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="1040" cy="180" r="6.5" fill="#d9dde3"/><circle cx="1040" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="1040" y="157.0" class="ax" text-anchor="middle">20</text>
-<circle cx="1010" cy="870" r="6.5" fill="#d9dde3"/><circle cx="1010" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="1010" cy="840" r="6.5" fill="#d9dde3"/><circle cx="1010" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="1010" cy="810" r="6.5" fill="#d9dde3"/><circle cx="1010" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="1010" cy="780" r="6.5" fill="#d9dde3"/><circle cx="1010" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="1010" cy="750" r="6.5" fill="#d9dde3"/><circle cx="1010" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="1010" cy="720" r="6.5" fill="#d9dde3"/><circle cx="1010" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="1010" cy="690" r="6.5" fill="#d9dde3"/><circle cx="1010" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -1271,10 +1138,6 @@
 <circle cx="1010" cy="210" r="6.5" fill="#d9dde3"/><circle cx="1010" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="1010" cy="180" r="6.5" fill="#d9dde3"/><circle cx="1010" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="1010" y="157.0" class="ax" text-anchor="middle">21</text>
-<circle cx="980" cy="870" r="6.5" fill="#d9dde3"/><circle cx="980" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="980" cy="840" r="6.5" fill="#d9dde3"/><circle cx="980" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="980" cy="810" r="6.5" fill="#d9dde3"/><circle cx="980" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="980" cy="780" r="6.5" fill="#d9dde3"/><circle cx="980" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="980" cy="750" r="6.5" fill="#d9dde3"/><circle cx="980" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="980" cy="720" r="6.5" fill="#d9dde3"/><circle cx="980" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="980" cy="690" r="6.5" fill="#d9dde3"/><circle cx="980" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -1296,10 +1159,6 @@
 <circle cx="980" cy="210" r="6.5" fill="#d9dde3"/><circle cx="980" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="980" cy="180" r="6.5" fill="#d9dde3"/><circle cx="980" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="980" y="157.0" class="ax" text-anchor="middle">22</text>
-<circle cx="950" cy="870" r="6.5" fill="#d9dde3"/><circle cx="950" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="950" cy="840" r="6.5" fill="#d9dde3"/><circle cx="950" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="950" cy="810" r="6.5" fill="#d9dde3"/><circle cx="950" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="950" cy="780" r="6.5" fill="#d9dde3"/><circle cx="950" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="950" cy="750" r="6.5" fill="#d9dde3"/><circle cx="950" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="950" cy="720" r="6.5" fill="#d9dde3"/><circle cx="950" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="950" cy="690" r="6.5" fill="#d9dde3"/><circle cx="950" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -1321,10 +1180,6 @@
 <circle cx="950" cy="210" r="6.5" fill="#d9dde3"/><circle cx="950" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="950" cy="180" r="6.5" fill="#d9dde3"/><circle cx="950" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="950" y="157.0" class="ax" text-anchor="middle">23</text>
-<circle cx="920" cy="870" r="6.5" fill="#d9dde3"/><circle cx="920" cy="870" r="2.8" fill="#1f5a3a"/>
-<circle cx="920" cy="840" r="6.5" fill="#d9dde3"/><circle cx="920" cy="840" r="2.8" fill="#1f5a3a"/>
-<circle cx="920" cy="810" r="6.5" fill="#d9dde3"/><circle cx="920" cy="810" r="2.8" fill="#1f5a3a"/>
-<circle cx="920" cy="780" r="6.5" fill="#d9dde3"/><circle cx="920" cy="780" r="2.8" fill="#1f5a3a"/>
 <circle cx="920" cy="750" r="6.5" fill="#d9dde3"/><circle cx="920" cy="750" r="2.8" fill="#1f5a3a"/>
 <circle cx="920" cy="720" r="6.5" fill="#d9dde3"/><circle cx="920" cy="720" r="2.8" fill="#1f5a3a"/>
 <circle cx="920" cy="690" r="6.5" fill="#d9dde3"/><circle cx="920" cy="690" r="2.8" fill="#1f5a3a"/>
@@ -1346,30 +1201,28 @@
 <circle cx="920" cy="210" r="6.5" fill="#d9dde3"/><circle cx="920" cy="210" r="2.8" fill="#1f5a3a"/>
 <circle cx="920" cy="180" r="6.5" fill="#d9dde3"/><circle cx="920" cy="180" r="2.8" fill="#1f5a3a"/>
 <text x="920" y="157.0" class="ax" text-anchor="middle">24</text>
-<text x="921.0" y="874" class="ax" text-anchor="middle">1</text>
-<text x="921.0" y="844" class="ax" text-anchor="middle">2</text>
-<text x="921.0" y="814" class="ax" text-anchor="middle">3</text>
-<text x="921.0" y="784" class="ax" text-anchor="middle">4</text>
-<text x="921.0" y="754" class="ax" text-anchor="middle">5</text>
-<text x="921.0" y="724" class="ax" text-anchor="middle">6</text>
-<text x="921.0" y="694" class="ax" text-anchor="middle">7</text>
-<text x="921.0" y="664" class="ax" text-anchor="middle">8</text>
-<text x="921.0" y="634" class="ax" text-anchor="middle">9</text>
-<text x="921.0" y="604" class="ax" text-anchor="middle">10</text>
-<text x="921.0" y="574" class="ax" text-anchor="middle">11</text>
-<text x="921.0" y="544" class="ax" text-anchor="middle">12</text>
-<text x="921.0" y="514" class="ax" text-anchor="middle">13</text>
-<text x="921.0" y="484" class="ax" text-anchor="middle">14</text>
-<text x="921.0" y="454" class="ax" text-anchor="middle">15</text>
-<text x="921.0" y="424" class="ax" text-anchor="middle">16</text>
-<text x="921.0" y="394" class="ax" text-anchor="middle">17</text>
-<text x="921.0" y="364" class="ax" text-anchor="middle">18</text>
-<text x="921.0" y="334" class="ax" text-anchor="middle">19</text>
-<text x="921.0" y="304" class="ax" text-anchor="middle">20</text>
-<text x="921.0" y="274" class="ax" text-anchor="middle">21</text>
-<text x="921.0" y="244" class="ax" text-anchor="middle">22</text>
-<text x="921.0" y="214" class="ax" text-anchor="middle">23</text>
-<text x="921.0" y="184" class="ax" text-anchor="middle">24</text>
+<text x="921.0" y="754" class="ax" text-anchor="middle">1</text>
+<text x="921.0" y="724" class="ax" text-anchor="middle">2</text>
+<text x="921.0" y="694" class="ax" text-anchor="middle">3</text>
+<text x="921.0" y="664" class="ax" text-anchor="middle">4</text>
+<text x="921.0" y="634" class="ax" text-anchor="middle">5</text>
+<text x="921.0" y="604" class="ax" text-anchor="middle">6</text>
+<text x="921.0" y="574" class="ax" text-anchor="middle">7</text>
+<text x="921.0" y="544" class="ax" text-anchor="middle">8</text>
+<text x="921.0" y="514" class="ax" text-anchor="middle">9</text>
+<text x="921.0" y="484" class="ax" text-anchor="middle">10</text>
+<text x="921.0" y="454" class="ax" text-anchor="middle">11</text>
+<text x="921.0" y="424" class="ax" text-anchor="middle">12</text>
+<text x="921.0" y="394" class="ax" text-anchor="middle">13</text>
+<text x="921.0" y="364" class="ax" text-anchor="middle">14</text>
+<text x="921.0" y="334" class="ax" text-anchor="middle">15</text>
+<text x="921.0" y="304" class="ax" text-anchor="middle">16</text>
+<text x="921.0" y="274" class="ax" text-anchor="middle">17</text>
+<text x="921.0" y="244" class="ax" text-anchor="middle">18</text>
+<text x="921.0" y="214" class="ax" text-anchor="middle">19</text>
+<text x="921.0" y="184" class="ax" text-anchor="middle">20</text>
+<rect x="1605" y="745" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1605" y="565" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
 <rect x="1575" y="745" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
 <rect x="1575" y="565" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
 <rect x="1545" y="745" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
@@ -1392,188 +1245,128 @@
 <rect x="1305" y="565" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
 <rect x="1275" y="745" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
 <rect x="1275" y="565" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1245" y="745" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1245" y="565" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1605" y="505" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1605" y="325" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1575" y="505" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1575" y="325" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1545" y="505" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1545" y="325" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1515" y="505" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1515" y="325" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1485" y="505" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1485" y="325" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1455" y="505" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1455" y="325" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1425" y="505" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1425" y="325" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1395" y="505" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1395" y="325" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1365" y="505" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1365" y="325" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1335" y="505" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1335" y="325" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1305" y="505" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1305" y="325" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1275" y="505" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1275" y="325" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1245" y="505" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1245" y="325" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1215" y="505" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1215" y="325" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1185" y="505" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1185" y="325" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1155" y="505" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1155" y="325" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1125" y="505" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1125" y="325" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1095" y="505" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1095" y="325" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1065" y="505" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1065" y="325" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1035" y="505" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1035" y="325" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1125" y="685" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1125" y="595" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1095" y="685" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1095" y="595" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1065" y="685" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1065" y="595" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1125" y="745" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<rect x="1035" y="745" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
-<path d="M1652.0,552.0 L1598.0,552.0 L1580.0,570.0" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M1652.0,552.0 L1598.0,552.0 L1580.0,570.0" stroke="#d62828" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="1652.0" cy="552.0" r="5" fill="#d62828" stroke="#fff" stroke-width="1.5"/>
-<circle cx="1580.0" cy="570.0" r="5" fill="#d62828" stroke="#fff" stroke-width="1.5"/>
-<path d="M1652.0,534.0 L1562.0,534.0 L1550.0,570.0" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M1652.0,534.0 L1562.0,534.0 L1550.0,570.0" stroke="#1b1b1b" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="1652.0" cy="534.0" r="5" fill="#1b1b1b" stroke="#fff" stroke-width="1.5"/>
-<circle cx="1550.0" cy="570.0" r="5" fill="#1b1b1b" stroke="#fff" stroke-width="1.5"/>
-<path d="M1460.0,510.0 L1475.0,525.0 L1535.0,525.0 L1535.0,735.0 L1550.0,750.0" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M1460.0,510.0 L1475.0,525.0 L1535.0,525.0 L1535.0,735.0 L1550.0,750.0" stroke="#e3b505" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="1460.0" cy="510.0" r="5" fill="#e3b505" stroke="#fff" stroke-width="1.5"/>
-<circle cx="1550.0" cy="750.0" r="5" fill="#e3b505" stroke="#fff" stroke-width="1.5"/>
-<path d="M1550.0,570.0 L1565.0,555.0 L1565.0,345.0 L1580.0,330.0" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M1550.0,570.0 L1565.0,555.0 L1565.0,345.0 L1580.0,330.0" stroke="#1b1b1b" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="1550.0" cy="570.0" r="5" fill="#1b1b1b" stroke="#fff" stroke-width="1.5"/>
-<circle cx="1580.0" cy="330.0" r="5" fill="#1b1b1b" stroke="#fff" stroke-width="1.5"/>
-<path d="M1100.0,510.0 L1085.0,528.0 L1070.0,564.0 L1070.0,600.0" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M1100.0,510.0 L1085.0,528.0 L1070.0,564.0 L1070.0,600.0" stroke="#d62828" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="1100.0" cy="510.0" r="5" fill="#d62828" stroke="#fff" stroke-width="1.5"/>
-<circle cx="1070.0" cy="600.0" r="5" fill="#d62828" stroke="#fff" stroke-width="1.5"/>
-<path d="M1070.0,510.0 L1055.0,525.0 L1025.0,540.0 L1025.0,612.0 L1082.0,612.0 L1100.0,600.0" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M1070.0,510.0 L1055.0,525.0 L1025.0,540.0 L1025.0,612.0 L1082.0,612.0 L1100.0,600.0" stroke="#1b1b1b" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="1070.0" cy="510.0" r="5" fill="#1b1b1b" stroke="#fff" stroke-width="1.5"/>
-<circle cx="1100.0" cy="600.0" r="5" fill="#1b1b1b" stroke="#fff" stroke-width="1.5"/>
-<path d="M1100.0,600.0 L1100.0,690.0" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M1100.0,600.0 L1100.0,690.0" stroke="#1b1b1b" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="1100.0" cy="600.0" r="5" fill="#1b1b1b" stroke="#fff" stroke-width="1.5"/>
-<circle cx="1100.0" cy="690.0" r="5" fill="#1b1b1b" stroke="#fff" stroke-width="1.5"/>
-<path d="M1070.0,690.0 L1040.0,720.0 L1040.0,750.0" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M1070.0,690.0 L1040.0,720.0 L1040.0,750.0" stroke="#d62828" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="1070.0" cy="690.0" r="5" fill="#d62828" stroke="#fff" stroke-width="1.5"/>
-<circle cx="1040.0" cy="750.0" r="5" fill="#d62828" stroke="#fff" stroke-width="1.5"/>
-<path d="M1130.0,690.0 L1130.0,750.0" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M1130.0,690.0 L1130.0,750.0" stroke="#f07d14" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="1130.0" cy="690.0" r="5" fill="#f07d14" stroke="#fff" stroke-width="1.5"/>
-<circle cx="1130.0" cy="750.0" r="5" fill="#f07d14" stroke="#fff" stroke-width="1.5"/>
-<path d="M1130.0,750.0 L1160.0,735.0 L1220.0,735.0 L1250.0,750.0" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M1130.0,750.0 L1160.0,735.0 L1220.0,735.0 L1250.0,750.0" stroke="#f07d14" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-<circle cx="1130.0" cy="750.0" r="5" fill="#f07d14" stroke="#fff" stroke-width="1.5"/>
-<circle cx="1250.0" cy="750.0" r="5" fill="#f07d14" stroke="#fff" stroke-width="1.5"/>
-<text x="1502.0" y="515.5" class="pl" text-anchor="middle" style="fill:#fff">W3 UART</text>
-<text x="1580.0" y="454.0" class="pl" text-anchor="middle" style="fill:#fff">W4</text>
-<text x="1091.0" y="556.0" class="pl" text-anchor="middle" style="fill:#fff">W5</text>
-<text x="1040.0" y="574.0" class="pl" text-anchor="middle" style="fill:#fff">W6</text>
-<text x="1085.0" y="649.0" class="pl" text-anchor="middle" style="fill:#fff">W7</text>
-<text x="1025.0" y="724.0" class="pl" text-anchor="middle" style="fill:#fff">W9</text>
-<text x="1115.0" y="724.0" class="pl" text-anchor="middle" style="fill:#fff">W10</text>
-<text x="1190.0" y="724.0" class="pl" text-anchor="middle" style="fill:#fff">W11</text>
-<text x="1604.0" y="521.5" class="pl" text-anchor="middle" style="fill:#fff">W1/W2</text>
-<text x="1460.0" y="529.0" class="pl" text-anchor="middle" style="fill:#ffe9a8">PA9</text>
-<text x="1580.0" y="321.0" class="pl" text-anchor="middle" style="fill:#ffe9a8">G</text>
-<text x="1100.0" y="529.0" class="pl" text-anchor="middle" style="fill:#ffe9a8">5V</text>
-<text x="1070.0" y="529.0" class="pl" text-anchor="middle" style="fill:#ffe9a8">G</text>
-<text x="1580.0" y="561.0" class="pl" text-anchor="middle" style="fill:#ffe9a8">RAW</text>
-<text x="1550.0" y="561.0" class="pl" text-anchor="middle" style="fill:#ffe9a8">GND</text>
-<text x="1550.0" y="769.0" class="pl" text-anchor="middle" style="fill:#ffe9a8">P0.08</text>
-<text x="1250.0" y="769.0" class="pl" text-anchor="middle" style="fill:#ffe9a8">P1.06</text>
-<text x="1130.0" y="591.0" class="pl" text-anchor="middle" style="fill:#cfd6de">G1</text>
-<text x="1100.0" y="591.0" class="pl" text-anchor="middle" style="fill:#cfd6de">S2</text>
-<text x="1070.0" y="591.0" class="pl" text-anchor="middle" style="fill:#cfd6de">G2</text>
-<text x="1130.0" y="709.0" class="pl" text-anchor="middle" style="fill:#cfd6de">D1</text>
-<text x="1100.0" y="709.0" class="pl" text-anchor="middle" style="fill:#cfd6de">S1</text>
-<text x="1070.0" y="709.0" class="pl" text-anchor="middle" style="fill:#cfd6de">D2</text>
-<text x="1265.0" y="259.0" class="pl" text-anchor="middle" style="fill:#9fd3b0">這面整面保留給 IC 卡連接器（型號待定）</text>
-<text x="30" y="1000" class="h2">接線表（線全部走背面）</text>
-<text x="30" y="1030" class="th">線號</text>
-<text x="95" y="1030" class="th">顏色</text>
-<text x="160" y="1030" class="th">起點</text>
-<text x="380" y="1030" class="th">終點</text>
-<text x="610" y="1030" class="th">用途</text>
-<line x1="30" y1="1038" x2="1670" y2="1038" stroke="#d0d7de"/>
-<text x="30" y="1060" class="tb">W1</text>
-<line x1="95" y1="1055" x2="135" y2="1055" stroke="#d62828" stroke-width="5" stroke-linecap="round"/>
-<text x="160" y="1060" class="tb">電池 ＋</text>
-<text x="380" y="1060" class="tb">nice!nano RAW (c2,r11)</text>
-<text x="610" y="1060" class="tb">電池正極（RAW 即 B+）</text>
-<text x="30" y="1085" class="tb">W2</text>
-<line x1="95" y1="1080" x2="135" y2="1080" stroke="#1b1b1b" stroke-width="5" stroke-linecap="round"/>
-<text x="160" y="1085" class="tb">電池 －</text>
-<text x="380" y="1085" class="tb">nice!nano GND (c3,r11)</text>
-<text x="610" y="1085" class="tb">電池負極 → GND</text>
-<text x="30" y="1110" class="tb">W3</text>
-<line x1="95" y1="1105" x2="135" y2="1105" stroke="#e3b505" stroke-width="5" stroke-linecap="round"/>
-<text x="160" y="1110" class="tb">BlackPill PA9 (c6,r13)</text>
-<text x="380" y="1110" class="tb">nice!nano P0.08 (c3,r5)</text>
-<text x="610" y="1110" class="tb">UART：BlackPill TX → nRF RX</text>
-<text x="30" y="1135" class="tb">W4</text>
-<line x1="95" y1="1130" x2="135" y2="1130" stroke="#1b1b1b" stroke-width="5" stroke-linecap="round"/>
-<text x="160" y="1135" class="tb">nice!nano GND (c3,r11)</text>
-<text x="380" y="1135" class="tb">BlackPill G (c2,r19)</text>
-<text x="610" y="1135" class="tb">兩板共地</text>
-<text x="30" y="1160" class="tb">W5</text>
-<line x1="95" y1="1155" x2="135" y2="1155" stroke="#d62828" stroke-width="5" stroke-linecap="round"/>
-<text x="160" y="1160" class="tb">BlackPill 5V (c18,r13)</text>
-<text x="380" y="1160" class="tb">DMC2038LVT G2 (c19,r10)</text>
-<text x="610" y="1160" class="tb">5V → G2</text>
-<text x="30" y="1185" class="tb">W6</text>
-<line x1="95" y1="1180" x2="135" y2="1180" stroke="#1b1b1b" stroke-width="5" stroke-linecap="round"/>
-<text x="160" y="1185" class="tb">BlackPill G (c19,r13)</text>
-<text x="380" y="1185" class="tb">DMC2038LVT S2 (c18,r10)</text>
-<text x="610" y="1185" class="tb">S2 → GND</text>
-<text x="30" y="1210" class="tb">W7</text>
-<line x1="95" y1="1205" x2="135" y2="1205" stroke="#1b1b1b" stroke-width="5" stroke-linecap="round"/>
-<text x="160" y="1210" class="tb">DMC2038LVT S2 (c18,r10)</text>
-<text x="380" y="1210" class="tb">DMC2038LVT S1 (c18,r7)</text>
-<text x="610" y="1210" class="tb">S1 → GND</text>
-<text x="30" y="1235" class="tb">W8</text>
-<line x1="95" y1="1230" x2="135" y2="1230" stroke="#d62828" stroke-width="5" stroke-linecap="round"/>
-<text x="160" y="1235" class="tb">DMC2038LVT G1 (c17,r10)</text>
-<text x="380" y="1235" class="tb">DMC2038LVT D2 (c19,r7)</text>
-<text x="610" y="1235" class="tb">G1 ↔ D2（焊在轉接板正面，虛線）</text>
-<text x="30" y="1260" class="tb">W9</text>
-<line x1="95" y1="1255" x2="135" y2="1255" stroke="#d62828" stroke-width="5" stroke-linecap="round"/>
-<text x="160" y="1260" class="tb">DMC2038LVT D2 (c19,r7)</text>
-<text x="380" y="1260" class="tb">R1 (c20,r5)</text>
-<text x="610" y="1260" class="tb">D2 → R1</text>
-<text x="30" y="1285" class="tb">W10</text>
-<line x1="95" y1="1280" x2="135" y2="1280" stroke="#f07d14" stroke-width="5" stroke-linecap="round"/>
-<text x="160" y="1285" class="tb">DMC2038LVT D1 (c17,r7)</text>
-<text x="380" y="1285" class="tb">R1 (c17,r5)</text>
-<text x="610" y="1285" class="tb">D1 → R1</text>
-<text x="30" y="1310" class="tb">W11</text>
-<line x1="95" y1="1305" x2="135" y2="1305" stroke="#f07d14" stroke-width="5" stroke-linecap="round"/>
-<text x="160" y="1310" class="tb">R1 (c17,r5)</text>
-<text x="380" y="1310" class="tb">nice!nano P1.06 (c13,r5)</text>
-<text x="610" y="1310" class="tb">D1 → nRF P1.06</text>
-<text x="980" y="1000" class="h2">注意</text>
-<text x="980" y="1032" class="tb">● 組裝順序：先焊背面的線 → 再插正面零件焊接 → 最後貼電池</text>
-<text x="980" y="1058" class="tb">● 洞洞板 62 × 62 mm：零件靠左（USB-C 貼左緣），上下各留空間</text>
-<text x="980" y="1084" class="tb">● DMC2038LVT 腳位依 datasheet，方向依 1 號腳推定</text>
-<text x="980" y="1110" class="tb">● nice!nano 天線端（紅虛框）右邊保持空著</text>
-<text x="980" y="1136" class="tb">● 兩個 USB-C 都在左邊（同一側）</text>
-<text x="980" y="1162" class="tb">● 電池會蓋住 BlackPill 的按鍵，燒錄時要先掀開</text>
-<text x="980" y="1188" class="tb">● 電池 30×25×5 mm 為照片估計值</text>
+<rect x="1605" y="385" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1605" y="205" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1575" y="385" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1575" y="205" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1545" y="385" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1545" y="205" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1515" y="385" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1515" y="205" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1485" y="385" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1485" y="205" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1455" y="385" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1455" y="205" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1425" y="385" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1425" y="205" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1395" y="385" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1395" y="205" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1365" y="385" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1365" y="205" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1335" y="385" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1335" y="205" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1305" y="385" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1305" y="205" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1275" y="385" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1275" y="205" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1245" y="385" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1245" y="205" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1215" y="385" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1215" y="205" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1185" y="385" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1185" y="205" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1155" y="385" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1155" y="205" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1125" y="385" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1125" y="205" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1095" y="385" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1095" y="205" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1065" y="385" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1065" y="205" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1035" y="385" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1035" y="205" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1125" y="655" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1125" y="565" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1095" y="655" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1095" y="565" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1065" y="655" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1065" y="565" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1125" y="715" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<rect x="1035" y="715" width="10" height="10" fill="#c9a24a" stroke="#7a5a10"/>
+<text x="1295.0" y="466.0" class="pl" text-anchor="middle" style="fill:#9fd3b0">背面不走任何線，整面保留給 IC 卡連接器（型號待定）</text>
+<text x="1295.0" y="496.0" class="pl" text-anchor="middle" style="fill:#9fd3b0">零件腳焊好後剪平</text>
+<text x="30" y="880" class="h2">接線表（全部走正面，用 OK 線）</text>
+<text x="30" y="910" class="th">線號</text>
+<text x="95" y="910" class="th">顏色</text>
+<text x="160" y="910" class="th">起點</text>
+<text x="380" y="910" class="th">終點</text>
+<text x="610" y="910" class="th">用途</text>
+<line x1="30" y1="918" x2="1670" y2="918" stroke="#d0d7de"/>
+<text x="30" y="940" class="tb">W1</text>
+<line x1="95" y1="935" x2="135" y2="935" stroke="#d62828" stroke-width="5" stroke-linecap="round"/>
+<text x="160" y="940" class="tb">電池 ＋（電池左端）</text>
+<text x="380" y="940" class="tb">nice!nano RAW (c1,r7)</text>
+<text x="610" y="940" class="tb">電池正極（RAW 即 B+）</text>
+<text x="30" y="965" class="tb">W2</text>
+<line x1="95" y1="960" x2="135" y2="960" stroke="#1b1b1b" stroke-width="5" stroke-linecap="round"/>
+<text x="160" y="965" class="tb">電池 －（電池左端）</text>
+<text x="380" y="965" class="tb">nice!nano GND (c2,r7)</text>
+<text x="610" y="965" class="tb">電池負極 → GND</text>
+<text x="30" y="990" class="tb">W3</text>
+<line x1="95" y1="985" x2="135" y2="985" stroke="#e3b505" stroke-width="5" stroke-linecap="round"/>
+<text x="160" y="990" class="tb">BlackPill PA9 (c6,r13)</text>
+<text x="380" y="990" class="tb">nice!nano P0.08 (c2,r1)</text>
+<text x="610" y="990" class="tb">UART：BlackPill TX → nRF RX（跨過 nice!nano 上方）</text>
+<text x="30" y="1015" class="tb">W4</text>
+<line x1="95" y1="1010" x2="135" y2="1010" stroke="#1b1b1b" stroke-width="5" stroke-linecap="round"/>
+<text x="160" y="1015" class="tb">nice!nano GND (c2,r7)</text>
+<text x="380" y="1015" class="tb">BlackPill G (c2,r19)</text>
+<text x="610" y="1015" class="tb">兩板共地（跨過 BlackPill 上方）</text>
+<text x="30" y="1040" class="tb">W5</text>
+<line x1="95" y1="1035" x2="135" y2="1035" stroke="#d62828" stroke-width="5" stroke-linecap="round"/>
+<text x="160" y="1040" class="tb">BlackPill 5V (c18,r13)</text>
+<text x="380" y="1040" class="tb">DMC2038LVT G2 腳3 (c17,r7)</text>
+<text x="610" y="1040" class="tb">5V → G2</text>
+<text x="30" y="1065" class="tb">W6</text>
+<line x1="95" y1="1060" x2="135" y2="1060" stroke="#1b1b1b" stroke-width="5" stroke-linecap="round"/>
+<text x="160" y="1065" class="tb">BlackPill G (c19,r13)</text>
+<text x="380" y="1065" class="tb">DMC2038LVT S2 腳2 (c18,r7)</text>
+<text x="610" y="1065" class="tb">S2 → GND</text>
+<text x="30" y="1090" class="tb">W7</text>
+<line x1="95" y1="1085" x2="135" y2="1085" stroke="#1b1b1b" stroke-width="5" stroke-linecap="round"/>
+<text x="160" y="1090" class="tb">DMC2038LVT S2 腳2 (c18,r7)</text>
+<text x="380" y="1090" class="tb">DMC2038LVT S1 腳5 (c18,r4)</text>
+<text x="610" y="1090" class="tb">S1 → GND</text>
+<text x="30" y="1115" class="tb">W8</text>
+<line x1="95" y1="1110" x2="135" y2="1110" stroke="#d62828" stroke-width="5" stroke-linecap="round"/>
+<text x="160" y="1115" class="tb">DMC2038LVT G1 腳1 (c19,r7)</text>
+<text x="380" y="1115" class="tb">DMC2038LVT D2 腳4 (c17,r4)</text>
+<text x="610" y="1115" class="tb">G1 ↔ D2</text>
+<text x="30" y="1140" class="tb">W9</text>
+<line x1="95" y1="1135" x2="135" y2="1135" stroke="#d62828" stroke-width="5" stroke-linecap="round"/>
+<text x="160" y="1140" class="tb">DMC2038LVT D2 腳4 (c17,r4)</text>
+<text x="380" y="1140" class="tb">R1 (c17,r2)</text>
+<text x="610" y="1140" class="tb">D2 → R1</text>
+<text x="30" y="1165" class="tb">W10</text>
+<line x1="95" y1="1160" x2="135" y2="1160" stroke="#f07d14" stroke-width="5" stroke-linecap="round"/>
+<text x="160" y="1165" class="tb">DMC2038LVT D1 腳6 (c19,r4)</text>
+<text x="380" y="1165" class="tb">R1 (c20,r2)</text>
+<text x="610" y="1165" class="tb">D1 → R1</text>
+<text x="30" y="1190" class="tb">W11</text>
+<line x1="95" y1="1185" x2="135" y2="1185" stroke="#f07d14" stroke-width="5" stroke-linecap="round"/>
+<text x="160" y="1190" class="tb">R1 (c20,r2)</text>
+<text x="380" y="1190" class="tb">nice!nano P1.06 (c12,r1)</text>
+<text x="610" y="1190" class="tb">D1 → nRF P1.06</text>
+<text x="980" y="880" class="h2">注意</text>
+<text x="980" y="912" class="tb">● 組裝順序：先插零件、從背面焊好腳並剪平 → 正面用 OK 線接線 → 最後貼電池</text>
+<text x="980" y="938" class="tb">● 洞洞板 長 61 × 寬 53 mm：USB-C 凸出左板邊約 2–3 mm；兩板中間空 5 排、上方空 1 排、右邊空 3 欄</text>
+<text x="980" y="964" class="tb">● 高約 12–13 mm（含電池；不含電池約 8 mm）</text>
+<text x="980" y="990" class="tb">● 電池疊在 BlackPill 右段，不擋 USB-C，也不超出板子</text>
+<text x="980" y="1016" class="tb">● 電池紅黑線（W1/W2）從電池左端直接拉到 nice!nano 的 RAW / GND</text>
+<text x="980" y="1042" class="tb">● OK 線有絕緣，W3/W4 跨過電池線、W8 跨過 W7 都沒關係</text>
+<text x="980" y="1068" class="tb">● DMC2038LVT 俯視：上排 腳3 G2、腳2 S2、腳1 G1；下排 腳4 D2、腳5 S1、腳6 D1（1 號腳在右上）</text>
+<text x="980" y="1094" class="tb">● nice!nano 天線端（紅虛框）右邊保持空著</text>
+<text x="980" y="1120" class="tb">● 兩個 USB-C 都在左邊（同一側）</text>
+<text x="980" y="1146" class="tb">● 電池會蓋住 BlackPill 的按鍵，燒錄時要先掀開</text>
+<text x="980" y="1172" class="tb">● 電池 30×25×5 mm 為照片估計值</text>
 </svg>
