@@ -91,11 +91,6 @@ for i in range(13):
         a(f'<rect x="{X(c)-5}" y="{Y(i)-5}" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>')
     label(R_ - 0.45, i, NR_[i], color="#ffe9a8", anchor="end", cls="ax")
     label(L + 0.45, i, NL_[i], color="#ffe9a8", anchor="start", cls="ax")
-# J2: 3-pin right-angle header on the socket (programming), wiring not readable in photos
-for k in range(3):
-    a(f'<rect x="{X(15 + k)-5}" y="{Y(13)-5}" width="10" height="10" fill="#c9a24a" stroke="#333"/>')
-    a(f'<line x1="{X(15 + k)}" y1="{Y(13)}" x2="{X(15 + k) + 18}" y2="{Y(13) + 40}" stroke="#d4af37" stroke-width="3"/>')
-label(14.6, 14.0, "J2 燒錄 3 pin（接法照片看不清，先不接）", color="#cfd6de", halo=False, anchor="start")
 # C10 0.1uF: legs (8,6)=VCC on K1, (9,6)=GND
 rect(7.9, 9.1, 5.78, 6.22, fill="#d9b34a", stroke="#6b4d1e", rx="3")
 a(f'<rect x="{X(8)-5}" y="{Y(6)-5}" width="10" height="10" fill="#f2d16b" stroke="#7a5a10"/><rect x="{X(9)-5}" y="{Y(6)-5}" width="10" height="10" fill="#f2d16b" stroke="#7a5a10"/>')
@@ -155,7 +150,6 @@ ny2 = ny + 26 + 8 * 24 + 22
 a(f'<text x="{tx}" y="{ny2}" class="h2" style="fill:#b42318">照片看不出來、要你確認的</text>')
 for i, t in enumerate(["C1–C8 左右順序是從照片接線判斷的，焊之前用電表量一次",
                        "哪一排是插卡口那側（目前照你說的：上面）",
-                       "J2 燒錄 3 pin 各接模組哪裡",
                        "老師的模組是平貼黏上去；這版把腳插進 c1 / c7 的洞",
                        "線有交叉（K1 跨過模組）；OK 線有絕緣沒關係"]):
     a(f'<text x="{tx}" y="{ny2+26+i*24}" class="tb">● {t}</text>')

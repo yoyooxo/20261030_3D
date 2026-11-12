@@ -393,13 +393,6 @@
 <rect x="325.0" y="700.0" width="10" height="10" fill="#e8b84a" stroke="#7a5a10"/>
 <text x="316.5" y="709.0" class="ax" text-anchor="end" style="fill:#ffe9a8;paint-order:stroke;stroke:rgba(0,0,0,0.45);stroke-width:2.5px">P1.06</text>
 <text x="163.5" y="709.0" class="ax" text-anchor="start" style="fill:#ffe9a8;paint-order:stroke;stroke:rgba(0,0,0,0.45);stroke-width:2.5px">P0.09</text>
-<rect x="565.0" y="670.0" width="10" height="10" fill="#c9a24a" stroke="#333"/>
-<line x1="570.0" y1="675.0" x2="588.0" y2="715.0" stroke="#d4af37" stroke-width="3"/>
-<rect x="595.0" y="670.0" width="10" height="10" fill="#c9a24a" stroke="#333"/>
-<line x1="600.0" y1="675.0" x2="618.0" y2="715.0" stroke="#d4af37" stroke-width="3"/>
-<rect x="625.0" y="670.0" width="10" height="10" fill="#c9a24a" stroke="#333"/>
-<line x1="630.0" y1="675.0" x2="648.0" y2="715.0" stroke="#d4af37" stroke-width="3"/>
-<text x="558.0" y="649.0" class="pl" text-anchor="start" style="fill:#cfd6de">J2 燒錄 3 pin（接法照片看不清，先不接）</text>
 <rect x="357.0" y="878.4" width="36.0" height="13.2" fill="#d9b34a" stroke="#6b4d1e" rx="3"/>
 <rect x="355.0" y="880.0" width="10" height="10" fill="#f2d16b" stroke="#7a5a10"/><rect x="385.0" y="880.0" width="10" height="10" fill="#f2d16b" stroke="#7a5a10"/>
 <path d="M150.0,945.0 L168.0,930.0 L360.0,930.0 L360.0,825.0" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
@@ -545,7 +538,6 @@
 <text x="880" y="742" class="h2" style="fill:#b42318">照片看不出來、要你確認的</text>
 <text x="880" y="768" class="tb">● C1–C8 左右順序是從照片接線判斷的，焊之前用電表量一次</text>
 <text x="880" y="792" class="tb">● 哪一排是插卡口那側（目前照你說的：上面）</text>
-<text x="880" y="816" class="tb">● J2 燒錄 3 pin 各接模組哪裡</text>
-<text x="880" y="840" class="tb">● 老師的模組是平貼黏上去；這版把腳插進 c1 / c7 的洞</text>
-<text x="880" y="864" class="tb">● 線有交叉（K1 跨過模組）；OK 線有絕緣沒關係</text>
+<text x="880" y="816" class="tb">● 老師的模組是平貼黏上去；這版把腳插進 c1 / c7 的洞</text>
+<text x="880" y="840" class="tb">● 線有交叉（K1 跨過模組）；OK 線有絕緣沒關係</text>
 </svg>
