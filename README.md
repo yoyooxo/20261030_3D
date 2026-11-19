@@ -82,4 +82,4 @@ C4、C6、C8 不接線，腳還是焊進洞，用來固定卡座。
 | `model_*.wrl` | 3D 模型（模組、卡座、OK 線、電池），PCB 用 `${KIPRJMOD}` 找，要跟 PCB 放同一個資料夾 |
 | `gen_layout_card9.py`、`gen_pcb_card9.py` | 產生 v9 Layout 和 PCB／3D 模型的程式 |
 | [`讀卡機_整理.md`](card_reader_nicenano/讀卡機_整理.md) | 舊的整理筆記（內容寫到 v6，接線已過時） |
-| `card_reader_nicenano/` 其他檔案 | v1–v8 的舊版，保留參考 |
+| `card_reader_nicenano/` 其他檔案 | v1–v7 的舊版，保留參考 |
