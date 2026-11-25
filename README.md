@@ -17,6 +17,16 @@
 
 ![轉接板接線圖](card_reader_breadboard/接線圖_含nRF.png)
 
+**3D 整體（麵包板＋轉接板＋卡座＋nRF＋杜邦線＋電池）**
+
+![3D 整體](card_reader_breadboard/立體_整體_斜視.png)
+
+**PCB 正面／背面**
+
+| 正面 | 背面 |
+|---|---|
+| ![PCB 正面](card_reader_breadboard/立體_PCB_正面.png) | ![PCB 背面](card_reader_breadboard/立體_PCB_背面.png) |
+
 ## 規格
 
 | 項目 | 內容 |
