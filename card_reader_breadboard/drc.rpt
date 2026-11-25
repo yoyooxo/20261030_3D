@@ -1,0 +1,27 @@
+** Drc report for card609_breakout.kicad_pcb **
+** Created on 2026-11-24T14:53:45 **
+** Report includes: Errors, Warnings **
+
+** Found 3 DRC violations **
+[lib_footprint_issues]: 目前的配置不包含封裝庫「card609」
+    Local override; warning
+    @(70.0000 mm, 50.0000 mm): Footprint J1
+[lib_footprint_issues]: 目前的配置不包含封裝庫「card609」
+    Local override; warning
+    @(78.5000 mm, 62.7000 mm): Footprint J2
+[lib_footprint_issues]: 目前的配置不包含封裝庫「card609」
+    Local override; warning
+    @(78.5000 mm, 75.4000 mm): Footprint J3
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

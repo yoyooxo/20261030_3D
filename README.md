@@ -11,6 +11,12 @@
 
 ![讀卡機 3D v9 斜視](card_reader_nicenano/讀卡機3D_v9_斜視.png)
 
+## 另一版：ICA-609 卡座麵包板轉接板 ＋ nRF52840
+
+做一塊 T 字形單面 PCB，讓卡座直接插在麵包板上，再用杜邦線接 nRF52840。PCB 打樣檔、接線圖、3D 圖都在 [`card_reader_breadboard/`](card_reader_breadboard/README.md)。
+
+![轉接板接線圖](card_reader_breadboard/接線圖_含nRF.png)
+
 ## 規格
 
 | 項目 | 內容 |
